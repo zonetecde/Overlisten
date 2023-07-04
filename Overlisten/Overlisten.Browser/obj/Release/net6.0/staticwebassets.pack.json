@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\bin\\Release\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\obj\\Release\\net6.0\\build-gz\\NMXjv87E.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\BlazorLoader.js",
+      "PackagePath": "staticwebassets\\BlazorLoader.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\ResizeObserver.js",
+      "PackagePath": "staticwebassets\\libs\\ResizeObserver.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\ResizeSensor.js",
+      "PackagePath": "staticwebassets\\libs\\ResizeSensor.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\cshtml5.css",
+      "PackagePath": "staticwebassets\\libs\\cshtml5.css"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\cshtml5.js",
+      "PackagePath": "staticwebassets\\libs\\cshtml5.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\fastclick.js",
+      "PackagePath": "staticwebassets\\libs\\fastclick.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\flatpickr.css",
+      "PackagePath": "staticwebassets\\libs\\flatpickr.css"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\flatpickr.js",
+      "PackagePath": "staticwebassets\\libs\\flatpickr.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\opensilver.js",
+      "PackagePath": "staticwebassets\\libs\\opensilver.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\velocity.js",
+      "PackagePath": "staticwebassets\\libs\\velocity.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.css",
+      "PackagePath": "staticwebassets\\loading-indicator.css"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.js",
+      "PackagePath": "staticwebassets\\loading-indicator.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.AspNetCore.Components\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.AspNetCore.Components\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Configuration.Abstractions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Configuration.Abstractions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Configuration.FileExtensions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Configuration.FileExtensions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Configuration.Json\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Configuration.Json\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Configuration\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Configuration\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.DependencyInjection.Abstractions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.DependencyInjection.Abstractions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.DependencyInjection\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.DependencyInjection\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.FileProviders.Abstractions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.FileProviders.Abstractions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.FileProviders.Physical\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.FileProviders.Physical\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.FileSystemGlobbing\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.FileSystemGlobbing\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Logging.Abstractions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Logging.Abstractions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Logging\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Logging\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Options\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Options\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Extensions.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Extensions.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.Win32.Registry\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\Microsoft.Win32.Registry\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Collections.Concurrent\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Collections.Concurrent\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Collections.Immutable\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Collections.Immutable\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Collections.NonGeneric\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Collections.NonGeneric\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Collections.Specialized\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Collections.Specialized\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Collections\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Collections\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.ComponentModel.Annotations\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.ComponentModel.Annotations\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.ComponentModel.EventBasedAsync\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.ComponentModel.EventBasedAsync\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.ComponentModel.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.ComponentModel.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.ComponentModel.TypeConverter\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.ComponentModel.TypeConverter\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Console\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Console\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Data.Common\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Data.Common\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Diagnostics.DiagnosticSource\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Diagnostics.DiagnosticSource\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Diagnostics.FileVersionInfo\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Diagnostics.FileVersionInfo\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Diagnostics.Process\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Diagnostics.Process\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Diagnostics.TextWriterTraceListener\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Diagnostics.TextWriterTraceListener\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Diagnostics.TraceSource\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Diagnostics.TraceSource\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Drawing.Common\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Drawing.Common\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Drawing.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Drawing.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Formats.Asn1\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Formats.Asn1\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.Compression.Brotli\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.Compression.Brotli\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.Compression.ZipFile\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.Compression.ZipFile\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.Compression\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.Compression\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.FileSystem.AccessControl\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.FileSystem.AccessControl\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.FileSystem.DriveInfo\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.FileSystem.DriveInfo\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.FileSystem.Watcher\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.FileSystem.Watcher\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.IsolatedStorage\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.IsolatedStorage\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.MemoryMappedFiles\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.MemoryMappedFiles\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.IO.Pipes\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.IO.Pipes\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Linq.Expressions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Linq.Expressions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Linq.Parallel\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Linq.Parallel\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Linq.Queryable\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Linq.Queryable\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Linq\\ILLink.Descriptors.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Linq\\ILLink.Descriptors.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Linq\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Linq\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Memory\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Memory\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.HttpListener\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.HttpListener\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Http\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Http\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Mail\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Mail\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.NameResolution\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.NameResolution\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.NetworkInformation\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.NetworkInformation\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Ping\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Ping\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Requests\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Requests\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Security\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Security\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.ServicePoint\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.ServicePoint\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.Sockets\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.Sockets\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.WebClient\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.WebClient\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.WebHeaderCollection\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.WebHeaderCollection\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.WebSockets.Client\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.WebSockets.Client\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Net.WebSockets\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Net.WebSockets\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.ObjectModel\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.ObjectModel\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.CoreLib\\ILLink.Descriptors.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.CoreLib\\ILLink.Descriptors.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.CoreLib\\ILLink.LinkAttributes.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.CoreLib\\ILLink.LinkAttributes.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.CoreLib\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.CoreLib\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.DataContractSerialization\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.DataContractSerialization\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.Runtime.InteropServices.JavaScript\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.Runtime.InteropServices.JavaScript\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.Uri\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.Uri\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.Xml.Linq\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.Xml.Linq\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Private.Xml\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Private.Xml\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Reflection.DispatchProxy\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Reflection.DispatchProxy\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Reflection.Metadata\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Reflection.Metadata\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Resources.Writer\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Resources.Writer\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Runtime.InteropServices.RuntimeInformation\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Runtime.InteropServices.RuntimeInformation\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Runtime.InteropServices\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Runtime.InteropServices\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Runtime.Numerics\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Runtime.Numerics\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Runtime.Serialization.Formatters\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Runtime.Serialization.Formatters\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Runtime.Serialization.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Runtime.Serialization.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.AccessControl\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.AccessControl\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Claims\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Claims\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Algorithms\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Algorithms\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Csp\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Csp\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Encoding\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Encoding\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Pkcs\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Pkcs\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Primitives\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Primitives\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.X509Certificates\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.X509Certificates\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Cryptography.Xml\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Cryptography.Xml\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Permissions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Permissions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Security.Principal.Windows\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Security.Principal.Windows\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Text.Encodings.Web\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Text.Encodings.Web\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Text.Json\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Text.Json\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Text.RegularExpressions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Text.RegularExpressions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Threading.Channels\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Threading.Channels\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Threading.Tasks.Parallel\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Threading.Tasks.Parallel\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Threading\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Threading\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Transactions.Local\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Transactions.Local\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\System.Windows.Extensions\\ILLink.Substitutions.xml",
+      "PackagePath": "staticwebassets\\resources\\System.Windows.Extensions\\ILLink.Substitutions.xml"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Overlisten.Browser.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Overlisten.Browser.props",
+      "PackagePath": "build\\Overlisten.Browser.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Overlisten.Browser.props",
+      "PackagePath": "buildMultiTargeting\\Overlisten.Browser.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Overlisten.Browser.props",
+      "PackagePath": "buildTransitive\\Overlisten.Browser.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

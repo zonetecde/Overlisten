@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "2jFQrSsyWjfAEE8m6NJ4nJGot9w8LhGdOdmsAuyeci6gnsdaJO6qH9EIwNCkDg3m/Mo7Ix2BC+7lkYrdxLqiwA==",
+  "success": true,
+  "projectFilePath": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Simulator\\Overlisten.Simulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zonedetec\\.nuget\\packages\\dotnetbrowser\\1.21.5\\dotnetbrowser.1.21.5.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\mahapps.metro\\1.2.4\\mahapps.metro.1.2.4.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.jsinterop\\3.1.28\\microsoft.jsinterop.3.1.28.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.web.administration\\7.0.0\\microsoft.web.administration.7.0.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\opensilver\\1.1.0\\opensilver.1.1.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\opensilver.simulator\\1.1.0\\opensilver.simulator.1.1.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.componentmodel.composition\\6.0.0\\system.componentmodel.composition.6.0.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.servicemodel.primitives\\4.10.0\\system.servicemodel.primitives.4.10.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

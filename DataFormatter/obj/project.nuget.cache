@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gZ7IOEOuyEcERyVJIOrhDG9drBCrIP9qtm09cEyTFHE0lVTV58TeV5Co/7+3T2AKpyKRfQH0StSjegu+oWJBHw==",
+  "success": true,
+  "projectFilePath": "E:\\_WEB\\Overlisten\\DataFormatter\\DataFormatter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zonedetec\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

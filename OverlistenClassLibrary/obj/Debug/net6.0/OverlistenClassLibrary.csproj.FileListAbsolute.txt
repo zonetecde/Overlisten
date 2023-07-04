@@ -1,0 +1,12 @@
+E:\_WEB\Overlisten\OverlistenClassLibrary\bin\Debug\net6.0\OverlistenClassLibrary.deps.json
+E:\_WEB\Overlisten\OverlistenClassLibrary\bin\Debug\net6.0\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\OverlistenClassLibrary\bin\Debug\net6.0\OverlistenClassLibrary.pdb
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.csproj.AssemblyReference.cache
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.AssemblyInfoInputs.cache
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.AssemblyInfo.cs
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.csproj.CoreCompileInputs.cache
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\refint\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\OverlistenClassLibrary.pdb
+E:\_WEB\Overlisten\OverlistenClassLibrary\obj\Debug\net6.0\ref\OverlistenClassLibrary.dll
