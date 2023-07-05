@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>4BF19DDF35A895C0C99C7C0EDAB1C743</XamlHash><PassNumber>2</PassNumber><CompilationDate>05/07/2023 20:16:30</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>4BF19DDF35A895C0C99C7C0EDAB1C743</XamlHash><PassNumber>2</PassNumber><CompilationDate>06/07/2023 00:26:30</CompilationDate></CSHTML5>
 
 
 
@@ -40,57 +40,57 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀCharactercardǀǀ
         LoadComponentImpl((global::Overlisten.Controls.CharacterCard)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.Controls.CharacterCard UserControl_3488f4a329d245c9903af622c33a1ff3)
+    private static void LoadComponentImpl(global::Overlisten.Controls.CharacterCard UserControl_b6bcb11bb38f40be877c1c22aa1923ee)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (UserControl_3488f4a329d245c9903af622c33a1ff3 is global::System.Windows.UIElement)
+        if (UserControl_b6bcb11bb38f40be877c1c22aa1923ee is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)UserControl_3488f4a329d245c9903af622c33a1ff3).XamlSourcePath = @"Overlisten\Controls\CharacterCard.xaml";
+            ((global::System.Windows.UIElement)(object)UserControl_b6bcb11bb38f40be877c1c22aa1923ee).XamlSourcePath = @"Overlisten\Controls\CharacterCard.xaml";
         }
 #pragma warning restore 0184
 
-        var xamlContext_685eaf02880c4b27a822f783cd218d16 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.Create_XamlContext();
-_ = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_685eaf02880c4b27a822f783cd218d16, UserControl_3488f4a329d245c9903af622c33a1ff3);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_SetConnectionId(xamlContext_685eaf02880c4b27a822f783cd218d16, 0, UserControl_3488f4a329d245c9903af622c33a1ff3);
-UserControl_3488f4a329d245c9903af622c33a1ff3.Cursor = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Input.Cursor>(typeof(global::System.Windows.Controls.UserControl), @"Cursor", @"Hand", () => global::System.Windows.Input.Cursors.Hand);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_SetConnectionId(xamlContext_685eaf02880c4b27a822f783cd218d16, 1, UserControl_3488f4a329d245c9903af622c33a1ff3);
-var Border_b47e3c5e7470435a87054e97f82501e0 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_685eaf02880c4b27a822f783cd218d16, new global::System.Windows.Controls.Border());
-Border_b47e3c5e7470435a87054e97f82501e0.BorderThickness = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Border), @"BorderThickness", @"2.5", () => new global::System.Windows.Thickness(2.5));
-Border_b47e3c5e7470435a87054e97f82501e0.BorderBrush = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Media.Brush>(typeof(global::System.Windows.Controls.Border), @"BorderBrush", @"white", () => new global::System.Windows.Media.SolidColorBrush(global::System.Windows.Media.Color.FromArgb((byte)255, (byte)255, (byte)255, (byte)255)));
-Border_b47e3c5e7470435a87054e97f82501e0.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Border), @"Margin", @"10,0,10,10", () => new global::System.Windows.Thickness(10, 0, 10, 10));
-Border_b47e3c5e7470435a87054e97f82501e0.Width = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.Border), @"Width", @"170", () => 170D);
-Border_b47e3c5e7470435a87054e97f82501e0.Background = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Media.Brush>(typeof(global::System.Windows.Controls.Border), @"Background", @"white", () => new global::System.Windows.Media.SolidColorBrush(global::System.Windows.Media.Color.FromArgb((byte)255, (byte)255, (byte)255, (byte)255)));
-var DockPanel_721d4aae65e4417f8eae0e5578429c3a = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_685eaf02880c4b27a822f783cd218d16, new global::System.Windows.Controls.DockPanel());
-var Image_e7d294fffbad41ac848f465fb9ad65ae = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_685eaf02880c4b27a822f783cd218d16, new global::System.Windows.Controls.Image());
-Image_e7d294fffbad41ac848f465fb9ad65ae.Name = "Image_heroImg";
-Image_e7d294fffbad41ac848f465fb9ad65ae.Stretch = global::System.Windows.Media.Stretch.Uniform;
-global::System.Windows.Controls.DockPanel.SetDock(Image_e7d294fffbad41ac848f465fb9ad65ae,global::System.Windows.Controls.Dock.Top);
-Image_e7d294fffbad41ac848f465fb9ad65ae.Height = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.Image), @"Height", @"200", () => 200D);
-Image_e7d294fffbad41ac848f465fb9ad65ae.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Image), @"Margin", @"0,-17,0,0", () => new global::System.Windows.Thickness(0, -17, 0, 0));
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_685eaf02880c4b27a822f783cd218d16);
-((global::System.Collections.IList)DockPanel_721d4aae65e4417f8eae0e5578429c3a.Children).Add(Image_e7d294fffbad41ac848f465fb9ad65ae);
-var TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_685eaf02880c4b27a822f783cd218d16, new global::System.Windows.Controls.TextBlock());
-global::System.Windows.Controls.DockPanel.SetDock(TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4,global::System.Windows.Controls.Dock.Bottom);
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.Height = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.TextBlock), @"Height", @"35", () => 35D);
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.HorizontalAlignment = global::System.Windows.HorizontalAlignment.Center;
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.VerticalContentAlignment = global::System.Windows.VerticalAlignment.Center;
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.VerticalAlignment = global::System.Windows.VerticalAlignment.Center;
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.TextBlock), @"Margin", @"0,0,0,0", () => new global::System.Windows.Thickness(0, 0, 0, 0));
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.Padding = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.TextBlock), @"Padding", @"0,0,0,10", () => new global::System.Windows.Thickness(0, 0, 0, 10));
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.Name = "TextBlock_heroName";
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.FontSize = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.TextBlock), @"FontSize", @"20", () => 20D);
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.TextWrapping = global::System.Windows.TextWrapping.Wrap;
-TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4.TextAlignment = global::System.Windows.TextAlignment.Center;
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_685eaf02880c4b27a822f783cd218d16);
-((global::System.Collections.IList)DockPanel_721d4aae65e4417f8eae0e5578429c3a.Children).Add(TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_685eaf02880c4b27a822f783cd218d16);
-Border_b47e3c5e7470435a87054e97f82501e0.Child = DockPanel_721d4aae65e4417f8eae0e5578429c3a;
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_685eaf02880c4b27a822f783cd218d16);
-UserControl_3488f4a329d245c9903af622c33a1ff3.Content = Border_b47e3c5e7470435a87054e97f82501e0;
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_685eaf02880c4b27a822f783cd218d16);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.InitializeNameScope(UserControl_3488f4a329d245c9903af622c33a1ff3);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.RegisterName(UserControl_3488f4a329d245c9903af622c33a1ff3, @"Image_heroImg", Image_e7d294fffbad41ac848f465fb9ad65ae);
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.RegisterName(UserControl_3488f4a329d245c9903af622c33a1ff3, @"TextBlock_heroName", TextBlock_19c2a1efa35f4b6b9f747dbd78a671f4);
+        var xamlContext_653146310c0a44b58036406e2cf494b5 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.Create_XamlContext();
+_ = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_653146310c0a44b58036406e2cf494b5, UserControl_b6bcb11bb38f40be877c1c22aa1923ee);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_SetConnectionId(xamlContext_653146310c0a44b58036406e2cf494b5, 0, UserControl_b6bcb11bb38f40be877c1c22aa1923ee);
+UserControl_b6bcb11bb38f40be877c1c22aa1923ee.Cursor = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Input.Cursor>(typeof(global::System.Windows.Controls.UserControl), @"Cursor", @"Hand", () => global::System.Windows.Input.Cursors.Hand);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_SetConnectionId(xamlContext_653146310c0a44b58036406e2cf494b5, 1, UserControl_b6bcb11bb38f40be877c1c22aa1923ee);
+var Border_2e237691368b4ccfb67606ff41a3886d = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_653146310c0a44b58036406e2cf494b5, new global::System.Windows.Controls.Border());
+Border_2e237691368b4ccfb67606ff41a3886d.BorderThickness = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Border), @"BorderThickness", @"2.5", () => new global::System.Windows.Thickness(2.5));
+Border_2e237691368b4ccfb67606ff41a3886d.BorderBrush = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Media.Brush>(typeof(global::System.Windows.Controls.Border), @"BorderBrush", @"white", () => new global::System.Windows.Media.SolidColorBrush(global::System.Windows.Media.Color.FromArgb((byte)255, (byte)255, (byte)255, (byte)255)));
+Border_2e237691368b4ccfb67606ff41a3886d.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Border), @"Margin", @"10,0,10,10", () => new global::System.Windows.Thickness(10, 0, 10, 10));
+Border_2e237691368b4ccfb67606ff41a3886d.Width = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.Border), @"Width", @"170", () => 170D);
+Border_2e237691368b4ccfb67606ff41a3886d.Background = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Media.Brush>(typeof(global::System.Windows.Controls.Border), @"Background", @"white", () => new global::System.Windows.Media.SolidColorBrush(global::System.Windows.Media.Color.FromArgb((byte)255, (byte)255, (byte)255, (byte)255)));
+var DockPanel_55ee66accc61452c98c947dbe4d54039 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_653146310c0a44b58036406e2cf494b5, new global::System.Windows.Controls.DockPanel());
+var Image_f98aa2bfb4904dc2af23747b1e8a7ff8 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_653146310c0a44b58036406e2cf494b5, new global::System.Windows.Controls.Image());
+Image_f98aa2bfb4904dc2af23747b1e8a7ff8.Name = "Image_heroImg";
+Image_f98aa2bfb4904dc2af23747b1e8a7ff8.Stretch = global::System.Windows.Media.Stretch.Uniform;
+global::System.Windows.Controls.DockPanel.SetDock(Image_f98aa2bfb4904dc2af23747b1e8a7ff8,global::System.Windows.Controls.Dock.Top);
+Image_f98aa2bfb4904dc2af23747b1e8a7ff8.Height = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.Image), @"Height", @"200", () => 200D);
+Image_f98aa2bfb4904dc2af23747b1e8a7ff8.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.Image), @"Margin", @"0,-17,0,0", () => new global::System.Windows.Thickness(0, -17, 0, 0));
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_653146310c0a44b58036406e2cf494b5);
+((global::System.Collections.IList)DockPanel_55ee66accc61452c98c947dbe4d54039.Children).Add(Image_f98aa2bfb4904dc2af23747b1e8a7ff8);
+var TextBlock_4ada6adde2854493a05fcc10a624642d = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_653146310c0a44b58036406e2cf494b5, new global::System.Windows.Controls.TextBlock());
+global::System.Windows.Controls.DockPanel.SetDock(TextBlock_4ada6adde2854493a05fcc10a624642d,global::System.Windows.Controls.Dock.Bottom);
+TextBlock_4ada6adde2854493a05fcc10a624642d.Height = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.TextBlock), @"Height", @"35", () => 35D);
+TextBlock_4ada6adde2854493a05fcc10a624642d.HorizontalAlignment = global::System.Windows.HorizontalAlignment.Center;
+TextBlock_4ada6adde2854493a05fcc10a624642d.VerticalContentAlignment = global::System.Windows.VerticalAlignment.Center;
+TextBlock_4ada6adde2854493a05fcc10a624642d.VerticalAlignment = global::System.Windows.VerticalAlignment.Center;
+TextBlock_4ada6adde2854493a05fcc10a624642d.Margin = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.TextBlock), @"Margin", @"0,0,0,0", () => new global::System.Windows.Thickness(0, 0, 0, 0));
+TextBlock_4ada6adde2854493a05fcc10a624642d.Padding = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Windows.Thickness>(typeof(global::System.Windows.Controls.TextBlock), @"Padding", @"0,0,0,10", () => new global::System.Windows.Thickness(0, 0, 0, 10));
+TextBlock_4ada6adde2854493a05fcc10a624642d.Name = "TextBlock_heroName";
+TextBlock_4ada6adde2854493a05fcc10a624642d.FontSize = global::OpenSilver.Internal.Xaml.RuntimeHelpers.GetPropertyValue<global::System.Double>(typeof(global::System.Windows.Controls.TextBlock), @"FontSize", @"20", () => 20D);
+TextBlock_4ada6adde2854493a05fcc10a624642d.TextWrapping = global::System.Windows.TextWrapping.Wrap;
+TextBlock_4ada6adde2854493a05fcc10a624642d.TextAlignment = global::System.Windows.TextAlignment.Center;
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_653146310c0a44b58036406e2cf494b5);
+((global::System.Collections.IList)DockPanel_55ee66accc61452c98c947dbe4d54039.Children).Add(TextBlock_4ada6adde2854493a05fcc10a624642d);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_653146310c0a44b58036406e2cf494b5);
+Border_2e237691368b4ccfb67606ff41a3886d.Child = DockPanel_55ee66accc61452c98c947dbe4d54039;
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_653146310c0a44b58036406e2cf494b5);
+UserControl_b6bcb11bb38f40be877c1c22aa1923ee.Content = Border_2e237691368b4ccfb67606ff41a3886d;
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_653146310c0a44b58036406e2cf494b5);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.InitializeNameScope(UserControl_b6bcb11bb38f40be877c1c22aa1923ee);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.RegisterName(UserControl_b6bcb11bb38f40be877c1c22aa1923ee, @"Image_heroImg", Image_f98aa2bfb4904dc2af23747b1e8a7ff8);
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.RegisterName(UserControl_b6bcb11bb38f40be877c1c22aa1923ee, @"TextBlock_heroName", TextBlock_4ada6adde2854493a05fcc10a624642d);
 
     }
 

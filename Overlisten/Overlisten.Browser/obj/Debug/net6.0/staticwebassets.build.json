@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pc3Wa/RKu7Ytpl7UVHysEHnZFHIur6Qta/3nSpQBiJM=",
+  "Hash": "sfI/iSVx+nHKzSbmPNvY7NfBHwjNE3v5WvwsERzWqd8=",
   "Source": "Overlisten.Browser",
   "BasePath": "/",
   "Mode": "Root",
@@ -10028,6 +10028,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\playpause.png"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\search.png",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "resources/Overlisten/assets/search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\search.png"
     },
     {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt",

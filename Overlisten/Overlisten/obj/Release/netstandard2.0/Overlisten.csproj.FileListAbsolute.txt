@@ -1,5 +1,3 @@
-E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\data\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt
-E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\data\2-Cassidy-000000062265.0B2-He's welcome to come collect.ogg
 E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\Overlisten.deps.json
 E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\Overlisten.dll
 E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\Overlisten.pdb
@@ -60,3 +58,6 @@ E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Release\netstandard2.0\Overlisten.c
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Release\netstandard2.0\Overlisten.csproj.CopyComplete
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Release\netstandard2.0\Overlisten.dll
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Release\netstandard2.0\Overlisten.pdb
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\Newtonsoft.Json.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Release\netstandard2.0\OverlistenClassLibrary.pdb

@@ -131,5 +131,34 @@ namespace Overlisten
         {
             Animation.HideAnimation(Grid_CharacterPage, Grid_main);
         }
+
+        private void TextBox_SearchCharacter_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(String.IsNullOrEmpty(((TextBox)sender).Text))
+            {
+                WrapPanel_Heros.Children.Where(x => x is CharacterCard)
+                    .ToList().ForEach(x => x.Visibility = Visibility.Visible);   
+                
+                WrapPanel_Others.Children.Where(x => x is CharacterCard)
+                    .ToList().ForEach(x => x.Visibility = Visibility.Visible);
+                return;
+            }
+
+            WrapPanel_Heros.Children.Where(x => x is CharacterCard)             
+                .ToList().ForEach(x => x.Visibility =  Visibility.Collapsed);
+            WrapPanel_Others.Children.Where(x => x is CharacterCard)             
+                .ToList().ForEach(x => x.Visibility =  Visibility.Collapsed);
+
+            string searchTerm = StringExt.RemoveDiacritics(((TextBox)sender).Text.ToLower());
+
+            WrapPanel_Heros.Children.Where(x => x is CharacterCard)
+                .Where(x => StringExt.RemoveDiacritics(((CharacterCard)x).TextBlock_heroName.Text).ToLower().Contains(searchTerm))
+                .ToList().ForEach(x => x.Visibility = Visibility.Visible);     
+            
+            WrapPanel_Others.Children.Where(x => x is CharacterCard)
+                .Where(x => StringExt.RemoveDiacritics(((CharacterCard)x).TextBlock_heroName.Text).ToLower().Contains(searchTerm))
+                .ToList().ForEach(x => x.Visibility = Visibility.Visible);
+
+        }
     }
 }

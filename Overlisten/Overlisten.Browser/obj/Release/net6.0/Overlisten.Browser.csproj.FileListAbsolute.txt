@@ -475,8 +475,6 @@ E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_fra
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\System.Private.Uri.dll.gz
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\System.Xml.dll.gz
-E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\data\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt
-E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\data\2-Cassidy-000000062265.0B2-He's welcome to come collect.ogg
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\Overlisten.Browser.staticwebassets.runtime.json
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\Overlisten.Browser.dll
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\Overlisten.Browser.pdb
@@ -973,3 +971,15 @@ E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\Overlisten.B
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\refint\Overlisten.Browser.dll
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\Overlisten.Browser.pdb
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\ref\Overlisten.Browser.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\OverlistenClassLibrary.pdb
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\OverlistenClassLibrary.dll.gz
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\wwwroot\_framework\OverlistenClassLibrary.pdb.gz
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\Newtonsoft.Json.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\OverlistenClassLibrary.pdb
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\build-gz\jioSrrnz.gz
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\build-gz\jU0j0cFx.gz
+E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\build-gz\yPRuDZTY.gz

@@ -112,6 +112,7 @@
     <Content Include="assets\play.png" />
     <Content Include="assets\playpause.png" />
     <Content Include="assets\download.png" />
+    <Content Include="assets\search.png" />
   </ItemGroup>
 
   <ItemGroup>

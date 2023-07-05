@@ -1,2 +1,9 @@
 Config.cs
 notice.txt
+
+obj/
+bin/
+Release/
+Debug/
+
+publish/

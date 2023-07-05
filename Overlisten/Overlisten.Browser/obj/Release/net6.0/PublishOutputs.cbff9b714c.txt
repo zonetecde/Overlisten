@@ -1,3 +1,1 @@
-E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\browser-wasm\PubTmp\Out\data\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt
-E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\browser-wasm\PubTmp\Out\data\2-Cassidy-000000062265.0B2-He's welcome to come collect.ogg
 E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config

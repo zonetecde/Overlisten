@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>653F5C44EF5F9387D1666E8021481858</XamlHash><PassNumber>2</PassNumber><CompilationDate>05/07/2023 20:16:30</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>653F5C44EF5F9387D1666E8021481858</XamlHash><PassNumber>2</PassNumber><CompilationDate>06/07/2023 00:26:30</CompilationDate></CSHTML5>
 
 
 
@@ -40,21 +40,21 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀAppǀǀXamlǀǀFactory : glob
         LoadComponentImpl((global::Overlisten.App)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.App Application_b3aca32b8e7b40e98496fd5c13ebd4ff)
+    private static void LoadComponentImpl(global::Overlisten.App Application_b0b67993b3c44fa0845cc0faad92e7b8)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (Application_b3aca32b8e7b40e98496fd5c13ebd4ff is global::System.Windows.UIElement)
+        if (Application_b0b67993b3c44fa0845cc0faad92e7b8 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)Application_b3aca32b8e7b40e98496fd5c13ebd4ff).XamlSourcePath = @"Overlisten\App.xaml";
+            ((global::System.Windows.UIElement)(object)Application_b0b67993b3c44fa0845cc0faad92e7b8).XamlSourcePath = @"Overlisten\App.xaml";
         }
 #pragma warning restore 0184
 
-        var xamlContext_565a94bef1ba4ae2a95339952e0fe10b = global::OpenSilver.Internal.Xaml.RuntimeHelpers.Create_XamlContext();
-_ = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_565a94bef1ba4ae2a95339952e0fe10b, Application_b3aca32b8e7b40e98496fd5c13ebd4ff);
-var ResourceDictionary_7dc8e0718a0248fe9ad9dd4bb9295a65 = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_565a94bef1ba4ae2a95339952e0fe10b, new global::System.Windows.ResourceDictionary());
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_565a94bef1ba4ae2a95339952e0fe10b);
-Application_b3aca32b8e7b40e98496fd5c13ebd4ff.Resources = ResourceDictionary_7dc8e0718a0248fe9ad9dd4bb9295a65;
-global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_565a94bef1ba4ae2a95339952e0fe10b);
+        var xamlContext_923617b0cb77447eb63f079be5ed454e = global::OpenSilver.Internal.Xaml.RuntimeHelpers.Create_XamlContext();
+_ = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_923617b0cb77447eb63f079be5ed454e, Application_b0b67993b3c44fa0845cc0faad92e7b8);
+var ResourceDictionary_7f0c5eb709b94c15b4848a375963d5db = global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PushScope(xamlContext_923617b0cb77447eb63f079be5ed454e, new global::System.Windows.ResourceDictionary());
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_923617b0cb77447eb63f079be5ed454e);
+Application_b0b67993b3c44fa0845cc0faad92e7b8.Resources = ResourceDictionary_7f0c5eb709b94c15b4848a375963d5db;
+global::OpenSilver.Internal.Xaml.RuntimeHelpers.XamlContext_PopScope(xamlContext_923617b0cb77447eb63f079be5ed454e);
 
     }
 

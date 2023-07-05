@@ -23,20 +23,69 @@
                 </RadialGradientBrush>
             </Grid.Background>
 
-            <ScrollViewer Margin="0,50,0,0">
-                <StackPanel>
-                    <TextBlock Text="Overlisten" HorizontalAlignment="Center" FontSize="80" Margin="0,7.5,0,0" Foreground="white"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1.2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*" MinWidth="200"/>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="1*"  MinWidth="200"/>
+                        <ColumnDefinition Width="0.12*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Overlisten" HorizontalAlignment="Left" FontSize="80" Margin="0,7.5,0,0" 
+                                       Grid.Column="0" Foreground="white"/>
+
+                    <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+                        <TextBlock Foreground="white" FontSize="22" Text="Search for a hero/npc"/>
+                        <Grid>
+                            <TextBox Height="35" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0" TextChanged="TextBox_SearchCharacter_TextChanged"/>
+                            <Image Cursor="Hand" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3" VerticalAlignment="Bottom">
+                        <TextBlock Foreground="white" FontSize="22"  Text="Search for a line"/>
+                        <Grid>
+
+                            <TextBox Height="35" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0"/>
+                            <Image Cursor="Hand" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            
+            <ScrollViewer Margin="0,100,0,0">
+                <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                        </Grid.ColumnDefinitions>
+
+
+                    <StackPanel  Grid.Column="1">
+                        <WrapPanel  x:Name="WrapPanel_Heros" HorizontalAlignment="Center" Margin="0,20,0,0">
+
+                        </WrapPanel>
+
+                        <TextBlock   HorizontalAlignment="Center" Text="Miscellaneous" FontSize="32" Foreground="white" Margin="0,20,0,0"/>
+
+                        <WrapPanel   x:Name="WrapPanel_Others" HorizontalAlignment="Center" Margin="0,20,0,0">
+
+                        </WrapPanel>
+
+
+                    </StackPanel>
+
                     
-                    <WrapPanel x:Name="WrapPanel_Heros" HorizontalAlignment="Center" Margin="150,30,120,0">
 
-                    </WrapPanel>
-
-                    <TextBlock HorizontalAlignment="Center" Text="Miscellaneous" FontSize="32" Foreground="white" Margin="0,20,0,0"/>
-
-                    <WrapPanel x:Name="WrapPanel_Others" HorizontalAlignment="Center" Margin="150,20,150,0">
-
-                    </WrapPanel>
-                </StackPanel>
+                </Grid>
             </ScrollViewer>
         </Grid>
 
@@ -55,11 +104,13 @@
                         <ColumnDefinition Width="1.5*"/>
                         <ColumnDefinition Width="0.1*"/>
                     </Grid.ColumnDefinitions>
-                    
+
                     <StackPanel Grid.Column="1">
                         <TextBlock Text="Overlisten" x:Name="TextBlock_characterPageTitle" HorizontalAlignment="Center" FontSize="40" Margin="0,0,0,0" Foreground="white"/>
 
+                                            
                         <StackPanel x:Name="Grid_Hero" Margin="0,20,0,0">
+                           
                             <StackPanel x:Name="StackPanel_HeaderCategories" Orientation="Horizontal" Margin="0,0,0,0">
                                 <Image Cursor="Hand" MouseLeftButtonDown="Image_ToggleCategories_MouseLeftButtonDown" Source="assets/dropdown.png" Width="80" Height="80" Stretch="UniformToFill" Margin="40,10,0,0"/>
                                 <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="50" Height="80" VerticalAlignment="Center" Margin="10,0,0,0" Text="Sounds"/>

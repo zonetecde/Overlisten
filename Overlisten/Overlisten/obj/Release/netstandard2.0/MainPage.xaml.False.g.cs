@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>7282DBF6046B9D179A6C8FC9627A6A42</XamlHash><PassNumber>1</PassNumber><CompilationDate>04/07/2023 17:29:28</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>3CE44AE6BAD409566FDFBE5B7381382F</XamlHash><PassNumber>1</PassNumber><CompilationDate>05/07/2023 22:33:43</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀMainpageǀǀXamlǀǀFactory :
         LoadComponentImpl((global::Overlisten.MainPage)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.MainPage Page_dd84ff25b3e948f2b7e7fd3e82bf82e6)
+    private static void LoadComponentImpl(global::Overlisten.MainPage Page_a62c2cc63fbd45119cf4084bc4599aa7)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (Page_dd84ff25b3e948f2b7e7fd3e82bf82e6 is global::System.Windows.UIElement)
+        if (Page_a62c2cc63fbd45119cf4084bc4599aa7 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)Page_dd84ff25b3e948f2b7e7fd3e82bf82e6).XamlSourcePath = @"Overlisten\MainPage.xaml";
+            ((global::System.Windows.UIElement)(object)Page_a62c2cc63fbd45119cf4084bc4599aa7).XamlSourcePath = @"Overlisten\MainPage.xaml";
         }
 #pragma warning restore 0184
 
@@ -68,7 +68,26 @@ public partial class MainPage : global::System.Windows.Controls.Page, global::Op
 {
 
 #pragma warning disable 169, 649, 0628 // Prevents warning CS0169 ('field ... is never used'), CS0649 ('field ... is never assigned to, and will always have its default value null'), and CS0628 ('member : new protected member declared in sealed class')
-internal global::System.Windows.Controls.TextBlock @TextBlock1;
+internal global::System.Windows.Controls.Grid @Grid_main;
+internal global::System.Windows.Controls.WrapPanel @WrapPanel_Heros;
+internal global::System.Windows.Controls.WrapPanel @WrapPanel_Others;
+internal global::System.Windows.Controls.Grid @Grid_CharacterPage;
+internal global::System.Windows.Controls.TextBlock @TextBlock_characterPageTitle;
+internal global::System.Windows.Controls.StackPanel @Grid_Hero;
+internal global::System.Windows.Controls.StackPanel @StackPanel_HeaderCategories;
+internal global::System.Windows.Controls.StackPanel @StackPanel_Categories;
+internal global::System.Windows.Controls.StackPanel @StackPanel_HeaderConversations;
+internal global::System.Windows.Controls.StackPanel @StackPanel_Conversations;
+internal global::System.Windows.Controls.Grid @Grid_Npc;
+internal global::System.Windows.Controls.StackPanel @StackPanel_Sounds;
+internal global::Overlisten.Controls.CharacterCard @CharacterCard_Character;
+internal global::System.Windows.Controls.Grid @Grid_Loading;
+internal global::System.Windows.Controls.StackPanel @StackPanel_Loading;
+internal global::System.Windows.Controls.TextBlock @TextBlock_title;
+internal global::System.Windows.Controls.TextBlock @TextBlock_LoadingInfo;
+internal global::System.Windows.Controls.Image @Img_dropDownOpen;
+internal global::System.Windows.Controls.Image @Img_dropDownClosed;
+internal global::System.Windows.Controls.MediaElement @mediaElement;
 #pragma warning restore 169, 649, 0628
 
 

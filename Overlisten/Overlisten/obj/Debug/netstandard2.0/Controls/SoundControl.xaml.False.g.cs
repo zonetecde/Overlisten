@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>9D7B716FD8BBE3288D804E546B22FADB</XamlHash><PassNumber>1</PassNumber><CompilationDate>05/07/2023 20:16:26</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>9D7B716FD8BBE3288D804E546B22FADB</XamlHash><PassNumber>1</PassNumber><CompilationDate>06/07/2023 00:26:27</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀSoundcontrolǀǀX
         LoadComponentImpl((global::Overlisten.Controls.SoundControl)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.Controls.SoundControl UserControl_f2f9ce9bdb4b4d21a371b92658bcb935)
+    private static void LoadComponentImpl(global::Overlisten.Controls.SoundControl UserControl_2afc2094f1dd4c17a56eef2c565bf864)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (UserControl_f2f9ce9bdb4b4d21a371b92658bcb935 is global::System.Windows.UIElement)
+        if (UserControl_2afc2094f1dd4c17a56eef2c565bf864 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)UserControl_f2f9ce9bdb4b4d21a371b92658bcb935).XamlSourcePath = @"Overlisten\Controls\SoundControl.xaml";
+            ((global::System.Windows.UIElement)(object)UserControl_2afc2094f1dd4c17a56eef2c565bf864).XamlSourcePath = @"Overlisten\Controls\SoundControl.xaml";
         }
 #pragma warning restore 0184
 

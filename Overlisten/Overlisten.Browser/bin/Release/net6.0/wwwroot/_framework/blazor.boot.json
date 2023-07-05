@@ -32,6 +32,7 @@
       "Microsoft.JSInterop.dll": "sha256-kUEKJnvyAqVl9UT00Q68zceNJZz6P1qZO+EXf4i61c8=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-Eh7KdjwbmVGTRNSYsrftwhWuXuPvYdIGlsDUtyEZRNg=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-QV6B1p\/dQJO7qHvPN0JZr5UKKFp+s9zZSnViNcpgVN8=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "OpenSilver.Controls.Data.DataForm.Toolkit.dll": "sha256-McxLugrTtGlUW3bkUWmtgUYBEOSVZ2PkDqo3iQ8LAzg=",
       "OpenSilver.Controls.Data.Input.dll": "sha256-5zGHmMh1bQlUbUlBQ\/exy2XyndtPwrizHKMSACV7hRQ=",
       "OpenSilver.Controls.Data.dll": "sha256-LI7saAANNHscXFc2BhzxcMSIAg9gb0C7JYp6F1Q5zmA=",
@@ -220,15 +221,17 @@
       "mscorlib.dll": "sha256-R1JlsouwIAVx0f4j8Ku8nSgx9UWnoKc26EJSnZko6MY=",
       "netstandard.dll": "sha256-8Ej3VOdrj8ijDcTS0\/1AEMpisaFDe3Nmj0Fbq5sfZEk=",
       "System.Private.CoreLib.dll": "sha256-tqFypIfntE2p16olQ2cI4rklqWNJqsPJvAoPSChg0H0=",
-      "Overlisten.dll": "sha256-wI+jotV6Xku5ZYqvkdGIPZB55Nw5nFIQFo3V6pSM3zk=",
-      "Overlisten.Browser.dll": "sha256-\/0PTEygnBWeWLOlBUnRCnP9e7xRawMhQjEbGNzL7iVQ="
+      "Overlisten.dll": "sha256-Sf\/GmALeONjNgY3Ji4ebrdFQvO6kdRGah84EkVY\/auE=",
+      "OverlistenClassLibrary.dll": "sha256-oDgUFolGy+W5dNOvLAIT+vVUhwEaU7S1uJLK5YVijFc=",
+      "Overlisten.Browser.dll": "sha256-K4CIh0VnT0b7PFGe1Stm7MQNdNtUD\/dj7M8JuLFff8w="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Overlisten.pdb": "sha256-Gwh4vKx4YsEYyOnNXl96nGWGGAxjCP1Mo+CmH\/HMDIs=",
-      "Overlisten.Browser.pdb": "sha256-fqYGMsbiND9x5B3lZqEv7ZcmQot0j5\/9iB0vm\/5fYO0="
+      "Overlisten.pdb": "sha256-nlwLP6UE0SGHUajheDP5Bk0N455DjM49wTxHYG85esM=",
+      "OverlistenClassLibrary.pdb": "sha256-Pgbm2mBmmEiM+zj73tpSXDPQ5dSQ3WV82QIfr0yhMZE=",
+      "Overlisten.Browser.pdb": "sha256-2GFPAZAM0XuScEDuCpG\/r82ZYz+oXTUzv9+rHs9qQKs="
     },
     "runtime": {
       "dotnet.6.0.18.neaixbxfox.js": "sha256-Iww31ANFa3KZuR4RkhiSYt3FJ7PKpMdeFNq3l3Td1h8=",
