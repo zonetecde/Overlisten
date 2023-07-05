@@ -40,6 +40,54 @@
             </ScrollViewer>
         </Grid>
 
+        <Grid x:Name="Grid_CharacterPage" Opacity="0" Visibility="Collapsed">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#413e42"/>
+                    <GradientStop Color="#1d1b1d" Offset="0.807"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+
+            <ScrollViewer Margin="0,50,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Overlisten" x:Name="TextBlock_characterPageTitle" HorizontalAlignment="Center" FontSize="40" Margin="0,0,0,0" Foreground="white"/>
+
+                        <StackPanel x:Name="Grid_Hero" Margin="0,20,0,0">
+                            <StackPanel x:Name="StackPanel_HeaderCategories" Orientation="Horizontal" Margin="0,0,0,0">
+                                <Image Cursor="Hand" MouseLeftButtonDown="Image_ToggleCategories_MouseLeftButtonDown" Source="assets/dropdown.png" Width="80" Height="80" Stretch="UniformToFill" Margin="40,10,0,0"/>
+                                <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="50" Height="80" VerticalAlignment="Center" Margin="10,0,0,0" Text="Sounds"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="50,0,0,0"  Grid.Column="0" x:Name="StackPanel_Categories"/>
+
+                            <StackPanel x:Name="StackPanel_HeaderConversations"  Orientation="Horizontal"  Margin="0,0,0,0">
+                                <Image Cursor="Hand" MouseLeftButtonDown="Image_ToggleConversations_MouseLeftButtonDown" Source="assets/dropdown.png" Width="80" Height="80" Stretch="UniformToFill" Margin="40,10,0,0"/>
+                                <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="50" Height="80" VerticalAlignment="Center" Margin="10,0,0,0" Text="Conversations"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="50,0,0,0" Grid.Column="2" x:Name="StackPanel_Conversations"/>
+                        </StackPanel>
+
+                        <Grid x:Name="Grid_Npc" Margin="0,20,0,0">
+                            <StackPanel x:Name="StackPanel_Sounds"/>
+                        </Grid>
+                    </StackPanel>
+
+                </Grid>
+            </ScrollViewer>
+
+
+            <customControls:CharacterCard x:Name="CharacterCard_Character" Visibility="Collapsed" Cursor="Arrow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+            <Image Cursor="Hand" Source="assets/left_arrow.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Width="80" Height="80" MouseLeftButtonDown="Image_PreviousPage_MouseLeftButtonDown"/>
+        </Grid>
+
         <Grid x:Name="Grid_Loading">
             <StackPanel x:Name="StackPanel_Loading" VerticalAlignment="Center">
                 <TextBlock Text="Overlisten" HorizontalAlignment="Center" FontSize="80" Margin="0,0,0,0" Foreground="white"
@@ -48,5 +96,9 @@
                            FontSize="20" Margin="0,0,0,0" Foreground="white" x:Name="TextBlock_LoadingInfo"/>
             </StackPanel>
         </Grid>
+
+        <Image x:Name="Img_dropDownOpen" Source="assets/dropdown.png" Visibility="Collapsed"/>
+        <Image x:Name="Img_dropDownClosed" Source="assets/dropdown_closed.png" Visibility="Collapsed"/>        
+        <MediaElement x:Name="mediaElement" Visibility="Collapsed"/>        
     </Grid>
 </sdk:Page>

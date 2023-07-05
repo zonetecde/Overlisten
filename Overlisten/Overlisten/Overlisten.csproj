@@ -15,7 +15,13 @@
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Controls\HeroCard.xaml">
+    <Page Include="Controls\CategoryControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\CharacterCard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SoundControl.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
@@ -26,16 +32,19 @@
   <ItemGroup>
     <Compile Include="App.xaml.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="Controls\AlignableWrapPanel.cs" />
-    <Compile Include="Controls\HeroCard.xaml.cs" />
+    <Compile Include="Controls\CategoryControl.xaml.cs" />
+    <Compile Include="Controls\CharacterCard.xaml.cs" />
+    <Compile Include="Controls\SoundControl.xaml.cs" />
     <Compile Include="Extension\Animation.cs" />
     <Compile Include="Extension\Audio.cs" />
     <Compile Include="Extension\OverlistenGlob.cs" />
+    <Compile Include="Extension\StringExt.cs" />
     <Compile Include="MainPage.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="assets\background.gif" />
+    <Content Include="assets\dropdown_closed.png" />
     <Content Include="assets\heroes\adjutant.png" />
     <Content Include="assets\heroes\ana.png" />
     <Content Include="assets\heroes\announcement.png" />
@@ -52,6 +61,7 @@
     <Content Include="assets\heroes\d.va.png" />
     <Content Include="assets\heroes\deckard cain.png" />
     <Content Include="assets\heroes\doomfist.png" />
+    <Content Include="assets\dropdown.png" />
     <Content Include="assets\heroes\echo.png" />
     <Content Include="assets\heroes\galactic emperor.png" />
     <Content Include="assets\heroes\genji.png" />
@@ -97,6 +107,11 @@
     <Content Include="assets\heroes\zenyatta.png" />
     <Content Include="assets\heroes\zeus.png" />
     <Content Include="assets\heroes\zomnic.png" />
+    <Content Include="assets\left_arrow.png" />
+    <Content Include="assets\pause.png" />
+    <Content Include="assets\play.png" />
+    <Content Include="assets\playpause.png" />
+    <Content Include="assets\download.png" />
   </ItemGroup>
 
   <ItemGroup>

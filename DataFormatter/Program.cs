@@ -13,10 +13,9 @@ using System.Text;
 // The path where theses 3 folders are located: BetterHeroVoice, HeroConvo, and NPCVoice
 string defaultPath = "E:\\Divers\\overwatch sounds extractor\\data\\overlisten";
 
-// RENOMMER MANUELLEMENT TOUS LES DOSSIERS AVEC DES CARACTERES SPECIAUX (torbjorn et lucio)
-
 // A n'executer que après avoir extrait les sons du jeu  
-//RenameFactory(defaultPath);
+RenameFilesAndFolders(defaultPath);
+RenameFactory(defaultPath);
 
 Data data = new Data();
 
@@ -48,11 +47,39 @@ foreach (Hero hero in data.Heroes)
 // Sauvegarde
 File.WriteAllText("data.json", 
     JsonConvert.SerializeObject(data, Formatting.Indented)
-        .Replace("\\\\", "/") /* remplace le chemin d'accès vers les fichiers en chemin d'accès url, on le fait maintenant car .Replace() est très long */
-        .Replace('ö', 'o')
-        .Replace('ú', 'u'),
+        .Replace("\\\\", "/"), /* remplace le chemin d'accès vers les fichiers en chemin d'accès url, on le fait maintenant car .Replace() est très long */
      Encoding.UTF8
 );
+
+static void RenameFilesAndFolders(string path)
+{
+    var directories = Directory.GetDirectories(path, "*", SearchOption.AllDirectories)
+        .Where(directory => directory.Contains('ö') || directory.Contains('ù')|| directory.Contains('ú'));
+
+    foreach(string directory in directories)
+    {
+        if (directory.Split('\\').Last().Contains('ö') || directory.Split('\\').Last().Contains('ù')|| directory.Split('\\').Last().Contains('ú'))
+        {
+            string newdirectory = directory.Replace('ö', 'o').Replace('ù', 'u').Replace('ú', 'u');
+
+            Directory.Move(directory, newdirectory);
+        }
+    }
+
+    // même chose mais pour les fichiers cette fois
+    var files = Directory.GetFiles(path, "*", SearchOption.AllDirectories)
+        .Where(file => file.Contains('ö') || file.Contains('ù') || file.Contains('ú'));
+
+    foreach (string file in files)
+    {
+        if (file.Split('\\').Last().Contains('ö') || file.Split('\\').Last().Contains('ù') || file.Split('\\').Last().Contains('ú'))
+        {
+            string newFileName = file.Replace('ö', 'o').Replace('ù', 'u').Replace('ú', 'u');
+
+            System.IO.File.Move(file, newFileName);
+        }
+    }
+}
 
 static List<Conversation> GetHeroConversation(string defaultPath, string heroName)
 {
@@ -201,14 +228,12 @@ static void RenameFactory(string defaultPath)
         string? file = allFiles[i];
         string fileName = Path.GetFileName(file);
 
-        int lastDashIndex = fileName.LastIndexOf('-');
+        int whereCut = fileName.LastIndexOf(".0");
+        if (whereCut == -1)
+            continue; // already renamed
 
-        if (lastDashIndex != -1 && (fileName.Count(x => x == '-') == 1 || fileName.Count(x => x == '-') >= 3))
-        {
-            string fileNameWithoutExtraText = fileName.Substring(0, lastDashIndex) + Path.GetExtension(fileName);
-            Microsoft.VisualBasic.FileIO.FileSystem.RenameFile(file, fileNameWithoutExtraText);
-        }
-
+        string fileNameWithoutExtraText = fileName.Substring(0, whereCut) + Path.GetExtension(fileName);
+        Microsoft.VisualBasic.FileIO.FileSystem.RenameFile(file, fileNameWithoutExtraText);
 
         if (i % 1000 == 0)
         {

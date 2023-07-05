@@ -9,7 +9,7 @@ namespace Overlisten.Extension
     {
         internal static string FormatHeroName(string name)
         {
-            return name.Replace('_', ':').Replace("Torbjorn", "Torbjörn").Replace("Lucio", "Lúcio"); ;
+            return name.Replace('_', ':').Replace("Torbjorn", "Torbjörn").Replace("Lucio", "Lúcio");
         }
     }
 }

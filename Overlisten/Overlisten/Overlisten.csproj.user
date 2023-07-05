@@ -2,12 +2,24 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Controls\HeroCard.xaml.cs">
+    <Compile Update="Controls\CategoryControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\CharacterCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\SoundControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Controls\HeroCard.xaml">
+    <Page Update="Controls\CategoryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\CharacterCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SoundControl.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

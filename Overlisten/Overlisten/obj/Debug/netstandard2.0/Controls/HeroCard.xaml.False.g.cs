@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>430E6EFBFC7F68C625C15EFD800282AC</XamlHash><PassNumber>1</PassNumber><CompilationDate>05/07/2023 13:05:45</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>4BF19DDF35A895C0C99C7C0EDAB1C743</XamlHash><PassNumber>1</PassNumber><CompilationDate>05/07/2023 15:29:38</CompilationDate></CSHTML5>
 
 
 
@@ -13,14 +13,14 @@
 
 [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
 [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀHerocardǀǀXamlǀǀFactory : global::OpenSilver.Internal.Xaml.IXamlComponentFactory<global::Overlisten.Controls.HeroCard>, global::OpenSilver.Internal.Xaml.IXamlComponentLoader<global::Overlisten.Controls.HeroCard>
+public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀHerocardǀǀXamlǀǀFactory : global::OpenSilver.Internal.Xaml.IXamlComponentFactory<global::Overlisten.Controls.CharacterCard>, global::OpenSilver.Internal.Xaml.IXamlComponentLoader<global::Overlisten.Controls.CharacterCard>
 {
     public static object Instantiate()
     {
         return CreateComponentImpl();
     }
 
-    global::Overlisten.Controls.HeroCard global::OpenSilver.Internal.Xaml.IXamlComponentFactory<global::Overlisten.Controls.HeroCard>.CreateComponent()
+    global::Overlisten.Controls.CharacterCard global::OpenSilver.Internal.Xaml.IXamlComponentFactory<global::Overlisten.Controls.CharacterCard>.CreateComponent()
     {
         return CreateComponentImpl();
     }
@@ -30,29 +30,29 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀHerocardǀǀXaml�
         return CreateComponentImpl();
     }
 
-    void global::OpenSilver.Internal.Xaml.IXamlComponentLoader<global::Overlisten.Controls.HeroCard>.LoadComponent(global::Overlisten.Controls.HeroCard component)
+    void global::OpenSilver.Internal.Xaml.IXamlComponentLoader<global::Overlisten.Controls.CharacterCard>.LoadComponent(global::Overlisten.Controls.CharacterCard component)
     {
         LoadComponentImpl(component);
     }
 
     void global::OpenSilver.Internal.Xaml.IXamlComponentLoader.LoadComponent(object component)
     {
-        LoadComponentImpl((global::Overlisten.Controls.HeroCard)component);
+        LoadComponentImpl((global::Overlisten.Controls.CharacterCard)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.Controls.HeroCard UserControl_c0f9c70023504bf1a125d412b7f12a61)
+    private static void LoadComponentImpl(global::Overlisten.Controls.CharacterCard UserControl_60d58b667afc4f1b92ff7719c394997d)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (UserControl_c0f9c70023504bf1a125d412b7f12a61 is global::System.Windows.UIElement)
+        if (UserControl_60d58b667afc4f1b92ff7719c394997d is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)UserControl_c0f9c70023504bf1a125d412b7f12a61).XamlSourcePath = @"Overlisten\Controls\HeroCard.xaml";
+            ((global::System.Windows.UIElement)(object)UserControl_60d58b667afc4f1b92ff7719c394997d).XamlSourcePath = @"Overlisten\Controls\HeroCard.xaml";
         }
 #pragma warning restore 0184
 
         throw new global::System.NotImplementedException();
     }
 
-    private static global::Overlisten.Controls.HeroCard CreateComponentImpl()
+    private static global::Overlisten.Controls.CharacterCard CreateComponentImpl()
     {
         throw new global::System.NotImplementedException();
     }
@@ -64,7 +64,7 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀHerocardǀǀXaml�
 namespace Overlisten.Controls
 {
 
-public partial class HeroCard : global::System.Windows.Controls.UserControl, global::OpenSilver.Internal.Xaml.IComponentConnector
+public partial class CharacterCard : global::System.Windows.Controls.UserControl, global::OpenSilver.Internal.Xaml.IComponentConnector
 {
 
 #pragma warning disable 169, 649, 0628 // Prevents warning CS0169 ('field ... is never used'), CS0649 ('field ... is never assigned to, and will always have its default value null'), and CS0628 ('member : new protected member declared in sealed class')

@@ -1,0 +1,7 @@
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.csproj.AssemblyReference.cache
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.csproj.SuggestedBindingRedirects.cache
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.exe.config
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.GeneratedMSBuildEditorConfig.editorconfig
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.AssemblyInfoInputs.cache
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.AssemblyInfo.cs
+E:\_WEB\Overlisten\Overlisten\Overlisten.Simulator\obj\Debug\net472\Overlisten.Simulator.csproj.CoreCompileInputs.cache

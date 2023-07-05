@@ -1,9 +1,9 @@
 ﻿<UserControl
-    x:Class="Overlisten.Controls.HeroCard"
+    x:Class="Overlisten.Controls.CharacterCard"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:Overlisten.Controls" MouseEnter="UserControl_MouseEnter"
-    Cursor="Hand">
+    Cursor="Hand" MouseLeftButtonUp="UserControl_MouseLeftButtonUp">
 
     <Border BorderThickness="2.5" BorderBrush="white" Margin="10,0,10,10" Width="170" Background="white">
         <DockPanel>

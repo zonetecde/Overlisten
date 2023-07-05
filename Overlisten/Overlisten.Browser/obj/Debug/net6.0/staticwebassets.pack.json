@@ -133,6 +133,18 @@
       "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\background.png"
     },
     {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\download.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\download.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\dropdown.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\dropdown.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\dropdown_closed.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\dropdown_closed.png"
+    },
+    {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\Announcement.png",
       "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\Announcement.png"
     },
@@ -399,6 +411,26 @@
     {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\zomnic.png",
       "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\zomnic.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\left-arrow.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\left-arrow.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\left_arrow.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\left_arrow.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\pause.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\pause.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\play.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\play.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\playpause.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\playpause.png"
     },
     {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt",
