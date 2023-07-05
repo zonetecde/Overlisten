@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NYbcd1jL7PKzHncjqSmcP4oDvhEJZmDnFBijcu3DdbWPiUUNbJymtPNrRBxtsI6z7TbCnb0K1fh3Tk9O7IQcwQ==",
+  "dgSpecHash": "zzdxzcZRNqI9LYvJ0DesKZ4o/XuoGIVpTpvaDUSH5ry8EVUMMyHmQ97nxl9aoc60ygvSPcq+tXKqFW4h1NduGA==",
   "success": true,
   "projectFilePath": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten\\Overlisten.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.jsinterop\\3.1.28\\microsoft.jsinterop.3.1.28.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\opensilver\\1.1.0\\opensilver.1.1.0.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

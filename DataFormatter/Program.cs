@@ -13,6 +13,8 @@ using System.Text;
 // The path where theses 3 folders are located: BetterHeroVoice, HeroConvo, and NPCVoice
 string defaultPath = "E:\\Divers\\overwatch sounds extractor\\data\\overlisten";
 
+// RENOMMER MANUELLEMENT TOUS LES DOSSIERS AVEC DES CARACTERES SPECIAUX (torbjorn et lucio)
+
 // A n'executer que après avoir extrait les sons du jeu  
 //RenameFactory(defaultPath);
 
@@ -46,8 +48,10 @@ foreach (Hero hero in data.Heroes)
 // Sauvegarde
 File.WriteAllText("data.json", 
     JsonConvert.SerializeObject(data, Formatting.Indented)
-        .Replace("\\\\", "/"), /* remplace le chemin d'accès vers les fichiers en chemin d'accès url, on le fait maintenant car .Replace() est très long */
-    Encoding.UTF8
+        .Replace("\\\\", "/") /* remplace le chemin d'accès vers les fichiers en chemin d'accès url, on le fait maintenant car .Replace() est très long */
+        .Replace('ö', 'o')
+        .Replace('ú', 'u'),
+     Encoding.UTF8
 );
 
 static List<Conversation> GetHeroConversation(string defaultPath, string heroName)

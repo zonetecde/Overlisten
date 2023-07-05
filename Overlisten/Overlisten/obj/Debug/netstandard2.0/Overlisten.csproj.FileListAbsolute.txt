@@ -58,3 +58,6 @@ E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Debug\netstandard2.0\Overlisten.csp
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Debug\netstandard2.0\Overlisten.csproj.CopyComplete
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Debug\netstandard2.0\Overlisten.dll
 E:\_WEB\Overlisten\Overlisten\Overlisten\obj\Debug\netstandard2.0\Overlisten.pdb
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Debug\netstandard2.0\OverlistenClassLibrary.dll
+E:\_WEB\Overlisten\Overlisten\Overlisten\bin\Debug\netstandard2.0\OverlistenClassLibrary.pdb

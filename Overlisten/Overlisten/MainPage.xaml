@@ -5,10 +5,48 @@
     xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
     xmlns:local="clr-namespace:Overlisten"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:customControls="clr-namespace:Overlisten.Controls"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
-    <Canvas>
-        <TextBlock Text="Hello World!" x:Name="TextBlock1" Canvas.Left="20" Canvas.Top="30"/>
-    </Canvas>
-    
+    mc:Ignorable="d" Loaded="Page_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/background.gif" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Grid Background="#CC000000"/>
+
+        <Grid x:Name="Grid_main" Visibility="Collapsed" Opacity="0">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#413e42"/>
+                    <GradientStop Color="#1d1b1d" Offset="0.807"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+
+            <ScrollViewer Margin="0,50,0,0">
+                <StackPanel>
+                    <TextBlock Text="Overlisten" HorizontalAlignment="Center" FontSize="80" Margin="0,7.5,0,0" Foreground="white"/>
+                    
+                    <WrapPanel x:Name="WrapPanel_Heros" HorizontalAlignment="Center" Margin="150,30,120,0">
+
+                    </WrapPanel>
+
+                    <TextBlock HorizontalAlignment="Center" Text="Miscellaneous" FontSize="32" Foreground="white" Margin="0,20,0,0"/>
+
+                    <WrapPanel x:Name="WrapPanel_Others" HorizontalAlignment="Center" Margin="150,20,150,0">
+
+                    </WrapPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid x:Name="Grid_Loading">
+            <StackPanel x:Name="StackPanel_Loading" VerticalAlignment="Center">
+                <TextBlock Text="Overlisten" HorizontalAlignment="Center" FontSize="80" Margin="0,0,0,0" Foreground="white"
+                           x:Name="TextBlock_title"/>
+                <TextBlock Text="Loading game sounds, please wait" HorizontalAlignment="Center" 
+                           FontSize="20" Margin="0,0,0,0" Foreground="white" x:Name="TextBlock_LoadingInfo"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
 </sdk:Page>

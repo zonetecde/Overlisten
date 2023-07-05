@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2jFQrSsyWjfAEE8m6NJ4nJGot9w8LhGdOdmsAuyeci6gnsdaJO6qH9EIwNCkDg3m/Mo7Ix2BC+7lkYrdxLqiwA==",
+  "dgSpecHash": "NOtoNbAqwn47b6RqX4YPoBz7g40jaFZ3nlKqlXUgNbTEKBF+jraC9xN+Txun3hNuIsGcZu6KlXFOMuKtlgAWYg==",
   "success": true,
   "projectFilePath": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Simulator\\Overlisten.Simulator.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.jsinterop\\3.1.28\\microsoft.jsinterop.3.1.28.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\microsoft.web.administration\\7.0.0\\microsoft.web.administration.7.0.0.nupkg.sha512",
+    "C:\\Users\\zonedetec\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\opensilver\\1.1.0\\opensilver.1.1.0.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\opensilver.simulator\\1.1.0\\opensilver.simulator.1.1.0.nupkg.sha512",
     "C:\\Users\\zonedetec\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

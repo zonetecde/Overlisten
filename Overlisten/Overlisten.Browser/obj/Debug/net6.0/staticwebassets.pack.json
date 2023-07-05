@@ -125,6 +125,282 @@
       "PackagePath": "staticwebassets\\resources\\Microsoft.Win32.Registry\\ILLink.Substitutions.xml"
     },
     {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\background.gif",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\background.gif"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\background.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\background.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\Announcement.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\Announcement.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\Unknown22C.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\Unknown22C.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\adjutant.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\adjutant.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\ana.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\ana.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\ashe.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\ashe.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\athena.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\athena.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\baptiste.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\baptiste.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\bastion.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\bastion.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\bonebreaker.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\bonebreaker.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\brigitte.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\brigitte.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\calactic emperor.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\calactic emperor.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\captain myung.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\captain myung.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\cassidy.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\cassidy.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\computer voice chandra.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\computer voice chandra.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\d.va.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\d.va.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\deckard cain.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\deckard cain.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\doomfist.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\doomfist.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\dva.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\dva.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\echo.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\echo.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\galactic emperor.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\galactic emperor.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\genji.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\genji.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\gondolier.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\gondolier.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\hal-fred Glitchbot.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\hal-fred Glitchbot.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\hanzo.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\hanzo.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\intercom.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\intercom.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\junker queen.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\junker queen.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\junker-queen.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\junker-queen.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\junkrat.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\junkrat.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\kiriko.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\kiriko.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\lifeweaver.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\lifeweaver.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\lucio.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\lucio.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\luna.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\luna.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\lúcio.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\lúcio.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\mei.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\mei.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\mercy.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\mercy.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\mike morhaime.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\mike morhaime.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\moira.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\moira.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\nulltrooper.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\nulltrooper.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\orisa.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\orisa.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\pharah.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\pharah.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\queen.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\queen.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\ramattra.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\ramattra.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\reaper.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\reaper.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\reinhardt.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\reinhardt.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\roadhog.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\roadhog.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\sigma.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\sigma.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\sojourn.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\sojourn.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\soldier_ 76.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\soldier_ 76.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\sombra.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\sombra.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\symmetra.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\symmetra.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\the narrator - Copie.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\the narrator - Copie.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\the narrator.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\the narrator.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\torbjorn.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\torbjorn.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\torbjörn.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\torbjörn.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\tracer.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\tracer.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\training bot.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\training bot.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\trooper.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\trooper.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\uther the lightbringer.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\uther the lightbringer.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\waitron.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\waitron.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\widowmaker.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\widowmaker.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\winston.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\winston.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\wrecking ball.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\wrecking ball.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\wrecking-ball.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\wrecking-ball.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\zarya.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\zarya.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\zenyatta.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\zenyatta.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\zeus.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\zeus.png"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\heroes\\zomnic.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\heroes\\zomnic.png"
+    },
+    {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt",
       "PackagePath": "staticwebassets\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt"
     },

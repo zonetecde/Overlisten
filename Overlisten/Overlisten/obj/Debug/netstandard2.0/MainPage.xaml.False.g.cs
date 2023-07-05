@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>C9C180F2AF072265CBCCAFF71D88B20A</XamlHash><PassNumber>1</PassNumber><CompilationDate>04/07/2023 21:23:12</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>66E439A7EBE6E2D675BC398B09652167</XamlHash><PassNumber>1</PassNumber><CompilationDate>05/07/2023 13:05:45</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀMainpageǀǀXamlǀǀFactory :
         LoadComponentImpl((global::Overlisten.MainPage)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.MainPage Page_52578cfcbcbc4ee0a7540fe3c6a1f633)
+    private static void LoadComponentImpl(global::Overlisten.MainPage Page_e211ad6c4df24378a99a0b49a40cbd95)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (Page_52578cfcbcbc4ee0a7540fe3c6a1f633 is global::System.Windows.UIElement)
+        if (Page_e211ad6c4df24378a99a0b49a40cbd95 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)Page_52578cfcbcbc4ee0a7540fe3c6a1f633).XamlSourcePath = @"Overlisten\MainPage.xaml";
+            ((global::System.Windows.UIElement)(object)Page_e211ad6c4df24378a99a0b49a40cbd95).XamlSourcePath = @"Overlisten\MainPage.xaml";
         }
 #pragma warning restore 0184
 
@@ -68,7 +68,13 @@ public partial class MainPage : global::System.Windows.Controls.Page, global::Op
 {
 
 #pragma warning disable 169, 649, 0628 // Prevents warning CS0169 ('field ... is never used'), CS0649 ('field ... is never assigned to, and will always have its default value null'), and CS0628 ('member : new protected member declared in sealed class')
-internal global::System.Windows.Controls.TextBlock @TextBlock1;
+internal global::System.Windows.Controls.Grid @Grid_main;
+internal global::System.Windows.Controls.WrapPanel @WrapPanel_Heros;
+internal global::System.Windows.Controls.WrapPanel @WrapPanel_Others;
+internal global::System.Windows.Controls.Grid @Grid_Loading;
+internal global::System.Windows.Controls.StackPanel @StackPanel_Loading;
+internal global::System.Windows.Controls.TextBlock @TextBlock_title;
+internal global::System.Windows.Controls.TextBlock @TextBlock_LoadingInfo;
 #pragma warning restore 169, 649, 0628
 
 

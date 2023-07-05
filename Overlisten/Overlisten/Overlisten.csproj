@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="OpenSilver" Version="1.1.0" />
   </ItemGroup>
 
@@ -14,6 +15,9 @@
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="Controls\HeroCard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -21,7 +25,84 @@
 
   <ItemGroup>
     <Compile Include="App.xaml.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Controls\AlignableWrapPanel.cs" />
+    <Compile Include="Controls\HeroCard.xaml.cs" />
+    <Compile Include="Extension\Animation.cs" />
+    <Compile Include="Extension\Audio.cs" />
+    <Compile Include="Extension\OverlistenGlob.cs" />
     <Compile Include="MainPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\background.gif" />
+    <Content Include="assets\heroes\adjutant.png" />
+    <Content Include="assets\heroes\ana.png" />
+    <Content Include="assets\heroes\announcement.png" />
+    <Content Include="assets\heroes\ashe.png" />
+    <Content Include="assets\heroes\athena.png" />
+    <Content Include="assets\heroes\baptiste.png" />
+    <Content Include="assets\heroes\bastion.png" />
+    <Content Include="assets\heroes\bonebreaker.png" />
+    <Content Include="assets\heroes\brigitte.png" />
+    <Content Include="assets\heroes\calactic emperor.png" />
+    <Content Include="assets\heroes\captain myung.png" />
+    <Content Include="assets\heroes\cassidy.png" />
+    <Content Include="assets\heroes\computer voice chandra.png" />
+    <Content Include="assets\heroes\d.va.png" />
+    <Content Include="assets\heroes\deckard cain.png" />
+    <Content Include="assets\heroes\doomfist.png" />
+    <Content Include="assets\heroes\echo.png" />
+    <Content Include="assets\heroes\galactic emperor.png" />
+    <Content Include="assets\heroes\genji.png" />
+    <Content Include="assets\heroes\gondolier.png" />
+    <Content Include="assets\heroes\hal-fred glitchbot.png" />
+    <Content Include="assets\heroes\hanzo.png" />
+    <Content Include="assets\heroes\intercom.png" />
+    <Content Include="assets\heroes\junker queen.png" />
+    <Content Include="assets\heroes\junkrat.png" />
+    <Content Include="assets\heroes\kiriko.png" />
+    <Content Include="assets\heroes\lifeweaver.png" />
+    <Content Include="assets\heroes\luna.png" />
+    <Content Include="assets\heroes\lúcio.png" />
+    <Content Include="assets\heroes\mei.png" />
+    <Content Include="assets\heroes\mercy.png" />
+    <Content Include="assets\heroes\mike morhaime.png" />
+    <Content Include="assets\heroes\moira.png" />
+    <Content Include="assets\heroes\nulltrooper.png" />
+    <Content Include="assets\heroes\orisa.png" />
+    <Content Include="assets\heroes\pharah.png" />
+    <Content Include="assets\heroes\queen.png" />
+    <Content Include="assets\heroes\ramattra.png" />
+    <Content Include="assets\heroes\reaper.png" />
+    <Content Include="assets\heroes\reinhardt.png" />
+    <Content Include="assets\heroes\roadhog.png" />
+    <Content Include="assets\heroes\sigma.png" />
+    <Content Include="assets\heroes\sojourn.png" />
+    <Content Include="assets\heroes\soldier_ 76.png" />
+    <Content Include="assets\heroes\sombra.png" />
+    <Content Include="assets\heroes\symmetra.png" />
+    <Content Include="assets\heroes\the narrator.png" />
+    <Content Include="assets\heroes\torbjörn.png" />
+    <Content Include="assets\heroes\tracer.png" />
+    <Content Include="assets\heroes\training bot.png" />
+    <Content Include="assets\heroes\trooper.png" />
+    <Content Include="assets\heroes\unknown22c.png" />
+    <Content Include="assets\heroes\uther the lightbringer.png" />
+    <Content Include="assets\heroes\waitron.png" />
+    <Content Include="assets\heroes\widowmaker.png" />
+    <Content Include="assets\heroes\winston.png" />
+    <Content Include="assets\heroes\wrecking ball.png" />
+    <Content Include="assets\heroes\zarya.png" />
+    <Content Include="assets\heroes\zenyatta.png" />
+    <Content Include="assets\heroes\zeus.png" />
+    <Content Include="assets\heroes\zomnic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OverlistenClassLibrary">
+      <HintPath>..\..\OverlistenClassLibrary\bin\Debug\net6.0\OverlistenClassLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

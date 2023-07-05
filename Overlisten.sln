@@ -14,9 +14,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{09F09C59-C4FC-4064-87DB-B1CFBA60BB6F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		notice.txt = notice.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlistenClassLibrary", "OverlistenClassLibrary\OverlistenClassLibrary.csproj", "{AB227260-3863-45D0-9047-ABE4ADEC1BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverlistenClassLibrary", "OverlistenClassLibrary\OverlistenClassLibrary.csproj", "{AB227260-3863-45D0-9047-ABE4ADEC1BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
