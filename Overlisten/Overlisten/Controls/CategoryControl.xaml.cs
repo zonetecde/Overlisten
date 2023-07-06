@@ -1,7 +1,9 @@
 ﻿using Overlisten.Extension;
 using OverlistenClassLibrary;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -21,10 +23,23 @@ namespace Overlisten.Controls
           
             if (Cat is Category)
                 TextBlock_CategoryName.Text = OverlistenGlob.FormatHeroName(StringExt.AddSpacesBeforeCaps(((Category)Cat).Name));
-            else
-                TextBlock_CategoryName.Text = OverlistenGlob.FormatHeroName(String.Join(", ", ((Conversation)Cat).Dialogues.ConvertAll(x => x.HeroTalking).Distinct())).Replace('_', ':');
+            else if(Cat is Conversation)
+                TextBlock_CategoryName.Text = OverlistenGlob.FormatHeroName(String.Join(", ", ((Conversation)Cat).Dialogues.ConvertAll(x => x.HeroTalking).Distinct())).Replace('_', ':');       
+            else if(Cat is KeyValuePair<string, List<Sound>>)
+            {
+                var keyValuePairs = (KeyValuePair<string, List<Sound>>)Cat;
+                TextBlock_CategoryName.Text = OverlistenGlob.FormatHeroName(StringExt.AddSpacesBeforeCaps(keyValuePairs.Key));
 
-            
+                img_dropDown.Source =MainPage._MainPage.Img_dropDownOpen.Source;
+                StackPanel_sounds.Visibility = Visibility.Visible;
+
+
+                foreach (Sound sound in keyValuePairs.Value)
+                {
+                    StackPanel_sounds.Children.Add(new SoundControl(sound));
+                }
+
+            }
         }
 
         public object Cat { get; }

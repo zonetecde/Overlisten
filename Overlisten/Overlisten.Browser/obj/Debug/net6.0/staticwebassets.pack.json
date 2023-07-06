@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\background.png"
     },
     {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\croix.png",
+      "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\croix.png"
+    },
+    {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\download.png",
       "PackagePath": "staticwebassets\\resources\\Overlisten\\assets\\download.png"
     },

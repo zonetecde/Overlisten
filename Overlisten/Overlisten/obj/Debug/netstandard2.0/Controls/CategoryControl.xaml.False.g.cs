@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>D7AE57169DD8C9E077BD07DD33F65D8B</XamlHash><PassNumber>1</PassNumber><CompilationDate>06/07/2023 00:26:27</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>F986D63B920D1B9B8A14BC22F6AFAC8C</XamlHash><PassNumber>1</PassNumber><CompilationDate>07/07/2023 00:44:23</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀCategorycontrolǀ
         LoadComponentImpl((global::Overlisten.Controls.CategoryControl)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.Controls.CategoryControl UserControl_d27a6207baca4b46a30d3e1975a0a575)
+    private static void LoadComponentImpl(global::Overlisten.Controls.CategoryControl UserControl_6804c5dd2a7e40e897df9c0cf64a662b)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (UserControl_d27a6207baca4b46a30d3e1975a0a575 is global::System.Windows.UIElement)
+        if (UserControl_6804c5dd2a7e40e897df9c0cf64a662b is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)UserControl_d27a6207baca4b46a30d3e1975a0a575).XamlSourcePath = @"Overlisten\Controls\CategoryControl.xaml";
+            ((global::System.Windows.UIElement)(object)UserControl_6804c5dd2a7e40e897df9c0cf64a662b).XamlSourcePath = @"Overlisten\Controls\CategoryControl.xaml";
         }
 #pragma warning restore 0184
 
@@ -68,6 +68,7 @@ public partial class CategoryControl : global::System.Windows.Controls.UserContr
 {
 
 #pragma warning disable 169, 649, 0628 // Prevents warning CS0169 ('field ... is never used'), CS0649 ('field ... is never assigned to, and will always have its default value null'), and CS0628 ('member : new protected member declared in sealed class')
+internal global::System.Windows.Controls.Image @img_dropDown;
 internal global::System.Windows.Controls.TextBlock @TextBlock_CategoryName;
 internal global::System.Windows.Controls.StackPanel @StackPanel_sounds;
 #pragma warning restore 169, 649, 0628

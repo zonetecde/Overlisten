@@ -43,6 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="assets\croix.png" />
     <Content Include="assets\background.gif" />
     <Content Include="assets\dropdown_closed.png" />
     <Content Include="assets\heroes\adjutant.png" />

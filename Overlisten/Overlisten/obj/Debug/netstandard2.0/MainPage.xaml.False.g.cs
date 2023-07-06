@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>A6FDF73F6F90BA9D1DD70BA87DD4270B</XamlHash><PassNumber>1</PassNumber><CompilationDate>06/07/2023 00:26:27</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>C037CC8F566796DD92315071510C2C1A</XamlHash><PassNumber>1</PassNumber><CompilationDate>07/07/2023 00:44:23</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀMainpageǀǀXamlǀǀFactory :
         LoadComponentImpl((global::Overlisten.MainPage)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.MainPage Page_5c9ee47ef8b84a2f82aaff2b1e503b5d)
+    private static void LoadComponentImpl(global::Overlisten.MainPage Page_26e93a3a265544b29655e304610f7a87)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (Page_5c9ee47ef8b84a2f82aaff2b1e503b5d is global::System.Windows.UIElement)
+        if (Page_26e93a3a265544b29655e304610f7a87 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)Page_5c9ee47ef8b84a2f82aaff2b1e503b5d).XamlSourcePath = @"Overlisten\MainPage.xaml";
+            ((global::System.Windows.UIElement)(object)Page_26e93a3a265544b29655e304610f7a87).XamlSourcePath = @"Overlisten\MainPage.xaml";
         }
 #pragma warning restore 0184
 
@@ -69,6 +69,12 @@ public partial class MainPage : global::System.Windows.Controls.Page, global::Op
 
 #pragma warning disable 169, 649, 0628 // Prevents warning CS0169 ('field ... is never used'), CS0649 ('field ... is never assigned to, and will always have its default value null'), and CS0628 ('member : new protected member declared in sealed class')
 internal global::System.Windows.Controls.Grid @Grid_main;
+internal global::System.Windows.Controls.TextBox @TextBox_SearchCharacter;
+internal global::System.Windows.Controls.TextBox @TextBox_SearchLine;
+internal global::System.Windows.Controls.Image @Image_CancelSearch;
+internal global::System.Windows.Controls.Grid @Grid_SearchResult;
+internal global::System.Windows.Controls.StackPanel @StackPanel_searchResult;
+internal global::System.Windows.Controls.ScrollViewer @ScrollViewer_Characters;
 internal global::System.Windows.Controls.WrapPanel @WrapPanel_Heros;
 internal global::System.Windows.Controls.WrapPanel @WrapPanel_Others;
 internal global::System.Windows.Controls.Grid @Grid_CharacterPage;

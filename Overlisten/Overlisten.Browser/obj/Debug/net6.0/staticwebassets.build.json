@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sfI/iSVx+nHKzSbmPNvY7NfBHwjNE3v5WvwsERzWqd8=",
+  "Hash": "ZbLz0J7Zdph5UJp6KuPe38IQ1k2s1MjJgA0mdENCxgs=",
   "Source": "Overlisten.Browser",
   "BasePath": "/",
   "Mode": "Root",
@@ -8753,6 +8753,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\background.png"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\croix.png",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "resources/Overlisten/assets/croix.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\croix.png"
     },
     {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\download.png",

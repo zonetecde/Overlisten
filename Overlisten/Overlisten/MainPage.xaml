@@ -44,8 +44,7 @@
                     <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
                         <TextBlock Foreground="white" FontSize="22" Text="Search for a hero/npc"/>
                         <Grid>
-                            <TextBox Height="35" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0" TextChanged="TextBox_SearchCharacter_TextChanged"/>
-                            <Image Cursor="Hand" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                            <TextBox Height="35" x:Name="TextBox_SearchCharacter" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0" TextChanged="TextBox_SearchCharacter_TextChanged"/>
                         </Grid>
                     </StackPanel>
 
@@ -53,14 +52,27 @@
                         <TextBlock Foreground="white" FontSize="22"  Text="Search for a line"/>
                         <Grid>
 
-                            <TextBox Height="35" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0"/>
-                            <Image Cursor="Hand" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                            <TextBox Height="35" KeyDown="TextBox_SearchLine_KeyDown" x:Name="TextBox_SearchLine" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0"/>
+                            <Image Cursor="Hand" MouseLeftButtonDown="Image_SearchLine_MouseLeftButtonDown" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                            <Image Cursor="Hand" MouseLeftButtonDown="Image_CancelSearch_MouseLeftButtonDown" x:Name="Image_CancelSearch" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,8,40,8" Source="assets/croix.png" Height="28" Stretch="UniformToFill"/>
                         </Grid>
                     </StackPanel>
                 </Grid>
             </Grid>
+
+            <Grid  Margin="0,125,0,0" x:Name="Grid_SearchResult" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="10*" MinWidth="200"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                
+                <ScrollViewer Grid.Column="1">
+                    <StackPanel x:Name="StackPanel_searchResult"/>
+                </ScrollViewer>
+            </Grid>
             
-            <ScrollViewer Margin="0,100,0,0">
+            <ScrollViewer Margin="0,100,0,0" x:Name="ScrollViewer_Characters">
                 <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"/>

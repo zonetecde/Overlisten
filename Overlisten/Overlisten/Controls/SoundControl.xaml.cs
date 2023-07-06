@@ -27,6 +27,17 @@ namespace Overlisten.Controls
             Sound = sound;
         }
 
+        /// <summary>
+        /// Constructeur avec une image
+        /// </summary>
+        /// <param name="sound"></param>
+        public SoundControl(Dictionary<string,Sound> sound)
+        {
+            this.InitializeComponent();
+
+            
+        }
+
         private void Image_play_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainPage._MainPage.mediaElement.Source = new Uri(Config.Server + Sound.Path);

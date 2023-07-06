@@ -7,7 +7,7 @@
     <StackPanel>
 
         <StackPanel Orientation="Horizontal">
-            <Image MouseLeftButtonDown="Image_ToggleSounds_MouseLeftButtonDown"  Cursor="Hand" Source="../assets/dropdown_closed.png" Width="50" Height="50" Stretch="Fill" Margin="40,10,0,0"/>
+            <Image x:Name="img_dropDown" MouseLeftButtonDown="Image_ToggleSounds_MouseLeftButtonDown"  Cursor="Hand" Source="../assets/dropdown_closed.png" Width="50" Height="50" Stretch="Fill" Margin="40,10,0,0"/>
             <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="30" Height="50" VerticalAlignment="Center" Margin="10,15,0,0" Text="Nom de la catégorie" x:Name="TextBlock_CategoryName"/>
         </StackPanel>
 
