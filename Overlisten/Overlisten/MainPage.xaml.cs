@@ -154,6 +154,7 @@ namespace Overlisten
 
         private void Image_PreviousPage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            Grid_CharacterPage.Tag = string.Empty;
             Animation.HideAnimation(Grid_CharacterPage, Grid_main);
         }
 
@@ -205,7 +206,6 @@ namespace Overlisten
 
             var soundDictionary = new Dictionary<string, List<Sound>>();
 
-            // Iterate through heroes' categories
             foreach (var hero in OverwatchData.Heroes)
             {
                 foreach (var category in hero.Categories)
@@ -225,7 +225,6 @@ namespace Overlisten
                 }
             }
 
-            // Iterate through heroes' conversations
             foreach (var hero in OverwatchData.Heroes)
             {
                 foreach (var conversation in hero.Conversations)
@@ -247,7 +246,6 @@ namespace Overlisten
                 }
             }
 
-            // Iterate through NPCs
             foreach (var npc in OverwatchData.Npcs)
             {
                 foreach (var sound in npc.Sounds)
@@ -264,21 +262,21 @@ namespace Overlisten
                 }
             }
 
-
-
-
             Grid_SearchResult.Visibility = Visibility.Visible;
             ScrollViewer_Characters.Visibility = Visibility.Collapsed;
 
             if (soundDictionary.Any())
             {
+                // Afin de pouvoir annuler la recherche dans le futur on met dans le .Tag les éléments à afficher
                 StackPanel_searchResult.Tag = String.Join(" ", soundDictionary.ToList().ConvertAll(x => String.Join(" ", x.Value.ConvertAll(y => y.Path))));
+                
                 foreach (var sound in soundDictionary)
                 {
                     CategoryControl categoryControl = new CategoryControl(sound);
 
                     Dispatcher.InvokeAsync(() =>
                     {
+                        // Vérifie qu'on est toujours dans la recherche concernée
                         if (StackPanel_searchResult.Tag.ToString().Contains(sound.Value.First().Path))
                             StackPanel_searchResult.Children.Add(categoryControl);
                     });
@@ -299,14 +297,21 @@ namespace Overlisten
             Cursor = Cursors.Arrow;
         }
 
+        /// <summary>
+        /// Recherche une line
+        /// </summary>
         private void TextBox_SearchLine_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
                 Image_SearchLine_MouseLeftButtonDown(this, null);
         }
 
+        /// <summary>
+        /// Cancel la recherche actuelle
+        /// </summary>
         private void Image_CancelSearch_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            StackPanel_searchResult.Tag = string.Empty;
             StackPanel_searchResult.Children.Clear();
             Grid_SearchResult.Visibility = Visibility.Collapsed;
             ScrollViewer_Characters.Visibility = Visibility.Visible;

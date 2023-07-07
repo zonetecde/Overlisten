@@ -1,4 +1,4 @@
-// <CSHTML5><XamlHash>F986D63B920D1B9B8A14BC22F6AFAC8C</XamlHash><PassNumber>1</PassNumber><CompilationDate>07/07/2023 12:02:19</CompilationDate></CSHTML5>
+// <CSHTML5><XamlHash>F986D63B920D1B9B8A14BC22F6AFAC8C</XamlHash><PassNumber>1</PassNumber><CompilationDate>07/07/2023 12:05:41</CompilationDate></CSHTML5>
 
 
 
@@ -40,12 +40,12 @@ public sealed class ǀǀOverlistenǀǀComponentǀǀControlsǀǀCategorycontrolǀ
         LoadComponentImpl((global::Overlisten.Controls.CategoryControl)component);
     }
 
-    private static void LoadComponentImpl(global::Overlisten.Controls.CategoryControl UserControl_6f8615611fa247e2adfcde9378ab16ae)
+    private static void LoadComponentImpl(global::Overlisten.Controls.CategoryControl UserControl_647fd32842ba47ae8a550bf2f6e7c5c8)
     {
 #pragma warning disable 0184 // Prevents warning CS0184 ('The given expression is never of the provided ('type') type')
-        if (UserControl_6f8615611fa247e2adfcde9378ab16ae is global::System.Windows.UIElement)
+        if (UserControl_647fd32842ba47ae8a550bf2f6e7c5c8 is global::System.Windows.UIElement)
         {
-            ((global::System.Windows.UIElement)(object)UserControl_6f8615611fa247e2adfcde9378ab16ae).XamlSourcePath = @"Overlisten\Controls\CategoryControl.xaml";
+            ((global::System.Windows.UIElement)(object)UserControl_647fd32842ba47ae8a550bf2f6e7c5c8).XamlSourcePath = @"Overlisten\Controls\CategoryControl.xaml";
         }
 #pragma warning restore 0184
 
