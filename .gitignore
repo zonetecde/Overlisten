@@ -3,7 +3,5 @@ notice.txt
 
 obj/
 bin/
-Release/
-Debug/
 
-publish/
+Publish/

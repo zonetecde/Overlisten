@@ -1,0 +1,167 @@
+﻿<sdk:Page
+    x:Class="Overlisten.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    xmlns:local="clr-namespace:Overlisten"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:customControls="clr-namespace:Overlisten.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/background.gif" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Grid Background="#CC000000"/>
+
+        <Grid x:Name="Grid_main" Visibility="Collapsed" Opacity="0">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#413e42"/>
+                    <GradientStop Color="#1d1b1d" Offset="0.807"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1.2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*" MinWidth="200"/>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="1*"  MinWidth="200"/>
+                        <ColumnDefinition Width="0.12*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Overlisten" HorizontalAlignment="Left" FontSize="80" Margin="0,7.5,0,0" 
+                                       Grid.Column="0" Foreground="white"/>
+
+                    <StackPanel x:Name="StackPanel_searchCharacter" Grid.Column="1" VerticalAlignment="Bottom" Margin="0,0,0,20">
+                        <TextBlock Foreground="white" FontSize="22" Text="Search for a hero/npc"/>
+                        <Grid>
+                            <TextBox Height="35" x:Name="TextBox_SearchCharacter" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0" TextChanged="TextBox_SearchCharacter_TextChanged"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3" VerticalAlignment="Bottom" Margin="0,0,0,20">
+                        <TextBlock Foreground="white" FontSize="22"  Text="Search for a line"/>
+                        <Grid>
+
+                            <TextBox Height="35" KeyDown="TextBox_SearchLine_KeyDown" x:Name="TextBox_SearchLine" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0"/>
+                            <Image Cursor="Hand" MouseLeftButtonDown="Image_SearchLine_MouseLeftButtonDown" HorizontalAlignment="Right" Margin="0,4,5,4" Source="assets/search.png" Height="28" Stretch="UniformToFill"/>
+                            <Image Cursor="Hand" MouseLeftButtonDown="Image_CancelSearch_MouseLeftButtonDown" x:Name="Image_CancelSearch" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,8,40,8" Source="assets/croix.png" Height="28" Stretch="UniformToFill"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+
+            <Grid  Margin="0,125,0,0" x:Name="Grid_SearchResult" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="10*" MinWidth="200"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                
+                <ScrollViewer Grid.Column="1">
+                    <StackPanel x:Name="StackPanel_searchResult"/>
+                </ScrollViewer>
+            </Grid>
+            
+            <ScrollViewer Margin="0,100,0,0" x:Name="ScrollViewer_Characters">
+                <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                        </Grid.ColumnDefinitions>
+
+
+                    <StackPanel  Grid.Column="1">
+                        <WrapPanel  x:Name="WrapPanel_Heros" HorizontalAlignment="Center" Margin="0,20,0,0">
+
+                        </WrapPanel>
+
+                        <TextBlock   HorizontalAlignment="Center" Text="Miscellaneous" FontSize="32" Foreground="white" Margin="0,20,0,0"/>
+
+                        <WrapPanel   x:Name="WrapPanel_Others" HorizontalAlignment="Center" Margin="0,20,0,0">
+
+                        </WrapPanel>
+
+
+                    </StackPanel>
+
+                    
+
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid x:Name="Grid_CharacterPage" Opacity="0" Visibility="Collapsed">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#413e42"/>
+                    <GradientStop Color="#1d1b1d" Offset="0.807"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+
+            <ScrollViewer Margin="0,50,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Overlisten" x:Name="TextBlock_characterPageTitle" HorizontalAlignment="Center" FontSize="40" Margin="0,0,0,0" Foreground="white"/>
+
+                                            
+                        <StackPanel x:Name="Grid_Hero" Margin="0,20,0,0">
+                           
+                            <StackPanel x:Name="StackPanel_HeaderCategories" Orientation="Horizontal" Margin="0,0,0,0">
+                                <Image Cursor="Hand" MouseLeftButtonDown="Image_ToggleCategories_MouseLeftButtonDown" Source="assets/dropdown.png" Width="80" Height="80" Stretch="UniformToFill" Margin="40,10,0,0"/>
+                                <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="50" Height="80" VerticalAlignment="Center" Margin="10,0,0,0" Text="Sounds"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="50,0,0,0"  Grid.Column="0" x:Name="StackPanel_Categories"/>
+
+                            <StackPanel x:Name="StackPanel_HeaderConversations"  Orientation="Horizontal"  Margin="0,0,0,0">
+                                <Image Cursor="Hand" MouseLeftButtonDown="Image_ToggleConversations_MouseLeftButtonDown" Source="assets/dropdown.png" Width="80" Height="80" Stretch="UniformToFill" Margin="40,10,0,0"/>
+                                <TextBlock Foreground="white" HorizontalAlignment="Left" FontSize="50" Height="80" VerticalAlignment="Center" Margin="10,0,0,0" Text="Conversations"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="50,0,0,0" Grid.Column="2" x:Name="StackPanel_Conversations"/>
+                        </StackPanel>
+
+                        <Grid x:Name="Grid_Npc" Margin="0,20,0,0">
+                            <StackPanel x:Name="StackPanel_Sounds"/>
+                        </Grid>
+                    </StackPanel>
+
+                </Grid>
+            </ScrollViewer>
+
+
+            <customControls:CharacterCard x:Name="CharacterCard_Character" Visibility="Collapsed" Cursor="Arrow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+            <Image Cursor="Hand" Source="assets/left_arrow.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Width="80" Height="80" MouseLeftButtonDown="Image_PreviousPage_MouseLeftButtonDown"/>
+        </Grid>
+
+        <Grid x:Name="Grid_Loading">
+            <StackPanel x:Name="StackPanel_Loading" VerticalAlignment="Center">
+                <TextBlock Text="Overlisten" HorizontalAlignment="Center" FontSize="80" Margin="0,0,0,0" Foreground="white"
+                           x:Name="TextBlock_title"/>
+                <TextBlock Text="Loading game sounds, please wait" HorizontalAlignment="Center" 
+                           FontSize="20" Margin="0,0,0,0" Foreground="white" x:Name="TextBlock_LoadingInfo"/>
+            </StackPanel>
+        </Grid>
+
+        <Image x:Name="Img_dropDownOpen" Source="assets/dropdown.png" Visibility="Collapsed"/>
+        <Image x:Name="Img_dropDownClosed" Source="assets/dropdown_closed.png" Visibility="Collapsed"/>        
+        <MediaElement x:Name="mediaElement" Visibility="Collapsed"/>        
+    </Grid>
+</sdk:Page>
