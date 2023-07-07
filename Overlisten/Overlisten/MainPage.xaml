@@ -41,14 +41,14 @@
                     <TextBlock Text="Overlisten" HorizontalAlignment="Left" FontSize="80" Margin="0,7.5,0,0" 
                                        Grid.Column="0" Foreground="white"/>
 
-                    <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+                    <StackPanel x:Name="StackPanel_searchCharacter" Grid.Column="1" VerticalAlignment="Bottom" Margin="0,0,0,20">
                         <TextBlock Foreground="white" FontSize="22" Text="Search for a hero/npc"/>
                         <Grid>
                             <TextBox Height="35" x:Name="TextBox_SearchCharacter" VerticalContentAlignment="Center" FontSize="20" Padding="5,0,0,0" TextChanged="TextBox_SearchCharacter_TextChanged"/>
                         </Grid>
                     </StackPanel>
 
-                    <StackPanel Grid.Column="3" VerticalAlignment="Bottom">
+                    <StackPanel Grid.Column="3" VerticalAlignment="Bottom" Margin="0,0,0,20">
                         <TextBlock Foreground="white" FontSize="22"  Text="Search for a line"/>
                         <Grid>
 

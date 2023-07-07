@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PR2TG4ndNh8tlxi45DL8S062+wfb/gniBMQ7nKtTp9I=",
+  "Hash": "PMvMb7tIpw8NV0Cg//x+6YoiKtPaTP52/4kAsl3Qerc=",
   "Source": "Overlisten.Browser",
   "BasePath": "/",
   "Mode": "Root",
@@ -7378,40 +7378,6 @@
       "OriginalItemSpec": "wwwroot\\BlazorLoader.js"
     },
     {
-      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\favicon.ico",
-      "SourceId": "Overlisten.Browser",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\index.html",
-      "SourceId": "Overlisten.Browser",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\cshtml5.css",
       "SourceId": "Overlisten.Browser",
       "SourceType": "Discovered",
@@ -7565,12 +7531,12 @@
       "OriginalItemSpec": "wwwroot\\libs\\velocity.js"
     },
     {
-      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.css",
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\favicon.ico",
       "SourceId": "Overlisten.Browser",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "loading-indicator.css",
+      "RelativePath": "overlisten/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7579,15 +7545,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\loading-indicator.css"
+      "OriginalItemSpec": "wwwroot\\overlisten\\favicon.ico"
     },
     {
-      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.js",
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\loading-indicator.css",
       "SourceId": "Overlisten.Browser",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "loading-indicator.js",
+      "RelativePath": "overlisten/loading-indicator.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7596,7 +7562,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\loading-indicator.js"
+      "OriginalItemSpec": "wwwroot\\overlisten\\loading-indicator.css"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\loading-indicator.js",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "overlisten/loading-indicator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\overlisten\\loading-indicator.js"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\overlisten.html",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "overlisten/overlisten.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\overlisten\\overlisten.html"
     },
     {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.AspNetCore.Components\\ILLink.Substitutions.xml",
@@ -7886,6 +7886,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\background.png"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\croix.png",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "resources/Overlisten/assets/croix.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\croix.png"
     },
     {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\download.png",
@@ -9161,6 +9178,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\playpause.png"
+    },
+    {
+      "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\assets\\search.png",
+      "SourceId": "Overlisten.Browser",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "resources/Overlisten/assets/search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\Overlisten\\assets\\search.png"
     },
     {
       "Identity": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Overlisten\\data\\1-Ashe-00000006268D.0B2-Stone Anthony says you still owe him five hundred dollars for that weekend in Tucson.txt",

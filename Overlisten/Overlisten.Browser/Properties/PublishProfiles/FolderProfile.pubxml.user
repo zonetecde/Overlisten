@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>E:\_WEB\Overlisten\Overlisten\Overlisten.Browser\bin\Release\net6.0\browser-wasm\publish\</_PublishTargetUrl>
-    <History>True|2023-07-05T20:36:11.5389225Z;True|2023-07-04T17:31:29.1491672+02:00;</History>
+    <History>True|2023-07-07T09:30:52.2428117Z;True|2023-07-07T11:14:22.8902911+02:00;True|2023-07-07T10:48:46.8003798+02:00;True|2023-07-07T10:40:01.2276764+02:00;True|2023-07-07T10:28:24.0000289+02:00;True|2023-07-05T22:36:11.5389225+02:00;True|2023-07-04T17:31:29.1491672+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

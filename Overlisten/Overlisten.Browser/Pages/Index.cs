@@ -6,7 +6,7 @@ using Overlisten.Browser.Interop;
 
 namespace Overlisten.Browser.Pages
 {
-    [Route("/")]
+    [Route("/overlisten/overlisten.html")]
     public class Index : ComponentBase
     {
         protected override void BuildRenderTree(RenderTreeBuilder __builder)

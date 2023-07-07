@@ -1,18 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Overlisten.Controls;
+using Overlisten.Extension;
+using OverlistenClassLibrary;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using Newtonsoft.Json;
-using Overlisten.Controls;
-using Overlisten.Extension;
-using OverlistenClassLibrary;
 
 namespace Overlisten
 {
@@ -20,7 +17,6 @@ namespace Overlisten
     {
         internal static MainPage _MainPage;
         internal static Random Random { get; set; } = new Random();
-
 
         internal Data OverwatchData;
 
@@ -34,12 +30,12 @@ namespace Overlisten
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             using (HttpClient client = new HttpClient())
-            {               
-                string json = await client.GetStringAsync(Config.Server + "data.json");
+            {
+                string json = await client.GetStringAsync(Config.JsonData);
                 OverwatchData = JsonConvert.DeserializeObject<Data>(json);
 
                 // Ajoute la carte de tout les héros
-                foreach(var hero in OverwatchData.Heroes)
+                foreach (var hero in OverwatchData.Heroes)
                 {
                     Controls.CharacterCard heroCard = new Controls.CharacterCard(hero, NavigateToCharacterPage);
                     WrapPanel_Heros.Children.Add(heroCard);
@@ -54,8 +50,7 @@ namespace Overlisten
             }
         }
 
-
-        private async void NavigateToCharacterPage(object character)
+        private void NavigateToCharacterPage(object character)
         {
             this.Cursor = Cursors.Wait;
 
@@ -65,7 +60,7 @@ namespace Overlisten
             StackPanel_Conversations.Children.Clear();
             StackPanel_Sounds.Children.Clear();
 
-            Animation.ShowAnimation(Grid_CharacterPage);
+            Animation.HideAnimation(Grid_main, Grid_CharacterPage);
 
             if (character is Hero)
             {
@@ -83,35 +78,31 @@ namespace Overlisten
                 // Affiche les catégories
                 foreach (Category cat in hero.Categories)
                 {
-                    //await Task.Run(() =>
-                    //{
-                        CategoryControl categoryControl = new CategoryControl(cat);
 
-                        //Dispatcher.InvokeAsync(() =>
-                        //{
-                            StackPanel_Categories.Children.Add(categoryControl);
-                        //});
-                    //});
+                    CategoryControl categoryControl = new CategoryControl(cat);
+
+                    Dispatcher.InvokeAsync(() =>
+                    {
+                        StackPanel_Categories.Children.Add(categoryControl);
+                    });
                 }
 
-                StackPanel_HeaderCategories.Visibility = StackPanel_Categories.Children.Any() ?
+                StackPanel_HeaderCategories.Visibility = hero.Categories.Any() ?
                     Visibility.Visible : Visibility.Collapsed;
 
                 // Affiche les convs
                 foreach (Conversation conv in hero.Conversations)
                 {
-                    //await Task.Run(() =>
-                    //{
-                        CategoryControl categoryControl = new CategoryControl(conv);
 
-                        //Dispatcher.InvokeAsync(() =>
-                        //{
-                            StackPanel_Conversations.Children.Add(categoryControl);
-                        //});
-                    //});
+                    CategoryControl categoryControl = new CategoryControl(conv);
+
+                    Dispatcher.InvokeAsync(() =>
+                    {
+                        StackPanel_Conversations.Children.Add(categoryControl);
+                    });
                 }
 
-                StackPanel_Conversations.Visibility = StackPanel_Conversations.Children.Any() ?
+                StackPanel_Conversations.Visibility = hero.Conversations.Any() ?
                     Visibility.Visible : Visibility.Collapsed;
             }
             else
@@ -125,17 +116,18 @@ namespace Overlisten
                 TextBlock_characterPageTitle.Text += npc.Name;
 
                 // Affiche les sons du NPC
+                Grid_CharacterPage.Tag = String.Join(",", npc.Sounds.ConvertAll(x => x.Path));
+
                 foreach (Sound sound in npc.Sounds)
                 {
-                    //await Task.Run(() =>
-                    //{
-                        SoundControl conversationControl = new SoundControl(sound);
 
-                        //Dispatcher.InvokeAsync(() =>
-                        //{
+                    SoundControl conversationControl = new SoundControl(sound);
+
+                    Dispatcher.InvokeAsync(() =>
+                    {
+                        if (Grid_CharacterPage.Tag.ToString().Contains(sound.Path))
                             StackPanel_Sounds.Children.Add(conversationControl);
-                        //});
-                    //});
+                    });
                 }
             }
 
@@ -149,8 +141,8 @@ namespace Overlisten
 
             (sender as Image).Source = StackPanel_Categories.Visibility == Visibility.Visible
                 ? Img_dropDownOpen.Source : Img_dropDownClosed.Source;
-        }        
-        
+        }
+
         private void Image_ToggleConversations_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             StackPanel_Conversations.Visibility = StackPanel_Conversations.Visibility == Visibility.Visible ?
@@ -167,28 +159,28 @@ namespace Overlisten
 
         private void TextBox_SearchCharacter_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(String.IsNullOrEmpty(((TextBox)sender).Text))
+            if (String.IsNullOrEmpty(((TextBox)sender).Text))
             {
                 WrapPanel_Heros.Children.Where(x => x is CharacterCard)
-                    .ToList().ForEach(x => x.Visibility = Visibility.Visible);   
-                
+                    .ToList().ForEach(x => x.Visibility = Visibility.Visible);
+
                 WrapPanel_Others.Children.Where(x => x is CharacterCard)
                     .ToList().ForEach(x => x.Visibility = Visibility.Visible);
                 return;
             }
 
-            WrapPanel_Heros.Children.Where(x => x is CharacterCard)             
-                .ToList().ForEach(x => x.Visibility =  Visibility.Collapsed);
-            WrapPanel_Others.Children.Where(x => x is CharacterCard)             
-                .ToList().ForEach(x => x.Visibility =  Visibility.Collapsed);
+            WrapPanel_Heros.Children.Where(x => x is CharacterCard)
+                .ToList().ForEach(x => x.Visibility = Visibility.Collapsed);
+            WrapPanel_Others.Children.Where(x => x is CharacterCard)
+                .ToList().ForEach(x => x.Visibility = Visibility.Collapsed);
 
             string searchTerm = StringExt.RemoveDiacritics(TextBox_SearchCharacter.Text.ToLower()).Trim()
                 .Replace(" ", "");
 
             WrapPanel_Heros.Children.Where(x => x is CharacterCard)
                 .Where(x => StringExt.RemoveDiacritics(((CharacterCard)x).TextBlock_heroName.Text).ToLower().Replace(" ", "").Contains(searchTerm))
-                .ToList().ForEach(x => x.Visibility = Visibility.Visible);     
-            
+                .ToList().ForEach(x => x.Visibility = Visibility.Visible);
+
             WrapPanel_Others.Children.Where(x => x is CharacterCard)
                 .Where(x => StringExt.RemoveDiacritics(((CharacterCard)x).TextBlock_heroName.Text).ToLower().Replace(" ", "").Contains(searchTerm))
                 .ToList().ForEach(x => x.Visibility = Visibility.Visible);
@@ -197,14 +189,14 @@ namespace Overlisten
 
         private void Image_SearchLine_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            StackPanel_searchCharacter.Visibility = Visibility.Collapsed;
+
             string searchTerm = StringExt.RemoveDiacritics(TextBox_SearchLine.Text.ToLower()).Trim();
             StackPanel_searchResult.Children.Clear();
 
             if (String.IsNullOrEmpty(searchTerm))
             {
-                Image_CancelSearch.Visibility = Visibility.Collapsed;
-                Grid_SearchResult.Visibility = Visibility.Collapsed;
-                ScrollViewer_Characters.Visibility = Visibility.Visible;
+                Image_CancelSearch_MouseLeftButtonDown(this, null);
                 return;
             }
 
@@ -280,21 +272,26 @@ namespace Overlisten
 
             if (soundDictionary.Any())
             {
+                StackPanel_searchResult.Tag = String.Join(" ", soundDictionary.ToList().ConvertAll(x => String.Join(" ", x.Value.ConvertAll(y => y.Path))));
                 foreach (var sound in soundDictionary)
                 {
                     CategoryControl categoryControl = new CategoryControl(sound);
 
-                    StackPanel_searchResult.Children.Add(categoryControl);
+                    Dispatcher.InvokeAsync(() =>
+                    {
+                        if (StackPanel_searchResult.Tag.ToString().Contains(sound.Value.First().Path))
+                            StackPanel_searchResult.Children.Add(categoryControl);
+                    });
                 }
             }
             else
             {
                 StackPanel_searchResult.Children.Add(new TextBlock()
                 {
-                    FontSize= 26,
+                    FontSize = 26,
                     Text = $"No line found with '{searchTerm}'",
                     Foreground = (Brush)Colors.White,
-                    Margin = new Thickness(0,75,0,0)
+                    Margin = new Thickness(0, 75, 0, 0)
 
                 });
             }
@@ -314,6 +311,7 @@ namespace Overlisten
             Grid_SearchResult.Visibility = Visibility.Collapsed;
             ScrollViewer_Characters.Visibility = Visibility.Visible;
             Image_CancelSearch.Visibility = Visibility.Collapsed;
+            StackPanel_searchCharacter.Visibility = Visibility.Visible;
         }
     }
 }

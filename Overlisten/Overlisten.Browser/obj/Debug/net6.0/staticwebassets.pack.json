@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\BlazorLoader.js"
     },
     {
-      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\libs\\ResizeObserver.js",
       "PackagePath": "staticwebassets\\libs\\ResizeObserver.js"
     },
@@ -57,12 +49,20 @@
       "PackagePath": "staticwebassets\\libs\\velocity.js"
     },
     {
-      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.css",
-      "PackagePath": "staticwebassets\\loading-indicator.css"
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\favicon.ico",
+      "PackagePath": "staticwebassets\\overlisten\\favicon.ico"
     },
     {
-      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\loading-indicator.js",
-      "PackagePath": "staticwebassets\\loading-indicator.js"
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\loading-indicator.css",
+      "PackagePath": "staticwebassets\\overlisten\\loading-indicator.css"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\loading-indicator.js",
+      "PackagePath": "staticwebassets\\overlisten\\loading-indicator.js"
+    },
+    {
+      "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\overlisten\\overlisten.html",
+      "PackagePath": "staticwebassets\\overlisten\\overlisten.html"
     },
     {
       "Id": "E:\\_WEB\\Overlisten\\Overlisten\\Overlisten.Browser\\wwwroot\\resources\\Microsoft.AspNetCore.Components\\ILLink.Substitutions.xml",
