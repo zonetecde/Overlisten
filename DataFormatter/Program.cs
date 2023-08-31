@@ -4,6 +4,9 @@
  * Projet permettant de lister dans un fichier .JSON le chemin d'accès au 
  * fichier audio ainsi que la transcription de ces derniers.
  * 
+ * Avant d'executer les 3 commandes dans le CMD, supprimer les dossiers contenant
+ * les anciens audios
+ * 
  * */
 
 using Newtonsoft.Json;

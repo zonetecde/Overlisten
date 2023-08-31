@@ -77,11 +77,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_WEB\\Overlisten\\DataFormatter\\DataFormatter.csproj",
+      "projectUniqueName": "E:\\Cloud\\OneDrive - Conseil régional Grand Est - Numérique Educatif\\Programmation\\c# - OpenSilver\\Overlisten\\DataFormatter\\DataFormatter.csproj",
       "projectName": "DataFormatter",
-      "projectPath": "E:\\_WEB\\Overlisten\\DataFormatter\\DataFormatter.csproj",
+      "projectPath": "E:\\Cloud\\OneDrive - Conseil régional Grand Est - Numérique Educatif\\Programmation\\c# - OpenSilver\\Overlisten\\DataFormatter\\DataFormatter.csproj",
       "packagesPath": "C:\\Users\\zonedetec\\.nuget\\packages\\",
-      "outputPath": "E:\\_WEB\\Overlisten\\DataFormatter\\obj\\",
+      "outputPath": "E:\\Cloud\\OneDrive - Conseil régional Grand Est - Numérique Educatif\\Programmation\\c# - OpenSilver\\Overlisten\\DataFormatter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,15 +96,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\_WEB\\Overlisten\\OverlistenClassLibrary\\OverlistenClassLibrary.csproj": {
-              "projectPath": "E:\\_WEB\\Overlisten\\OverlistenClassLibrary\\OverlistenClassLibrary.csproj"
+            "E:\\Cloud\\OneDrive - Conseil régional Grand Est - Numérique Educatif\\Programmation\\c# - OpenSilver\\Overlisten\\OverlistenClassLibrary\\OverlistenClassLibrary.csproj": {
+              "projectPath": "E:\\Cloud\\OneDrive - Conseil régional Grand Est - Numérique Educatif\\Programmation\\c# - OpenSilver\\Overlisten\\OverlistenClassLibrary\\OverlistenClassLibrary.csproj"
             }
           }
         }
